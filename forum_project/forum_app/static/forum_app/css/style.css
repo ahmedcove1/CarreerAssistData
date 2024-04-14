@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+body {
+    font-family: 'Playfair Display', serif;    padding: 20px;
+    background-color: #FAFAFA; /* Lighter shade for a fresher background */
+    color: #333; /* Darker text for better readability */
+    line-height: 1.6; /* Improved line spacing for readability */
+}
+
+#questionnaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px; /* Adjusted for optimal reading width */
+    margin: auto; /* Center align the questionnaire */
+}
+
+h1.lead {
+    font-weight: 700;
+    color: #000;
+}
+
+.card {
+    display: none; /* No change */
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Darker shadow for depth */
+    border-radius: 10px; /* Rounded corners for a softer look */
+    background-color: #FFFFFF; /* Solid white background for cards */
+    width: 100%;
+    max-width: 400px; /* No change */
+}
+
+.card.active {
+    display: block;
+    transform: scale(1.05); /* Slightly scale up active card */
+}
+
+.answer {
+    display: block;
+    background-color: #eee;
+    color: #333;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    text-align: left;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.answer:hover {
+    background-color: #ddd;
+}
+
+.progress-container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Subtle shadow for depth */
+    overflow: hidden; /* Ensure the inner bar stays within the rounded corners */
+}
+
+.progress-bar {
+    height: 20px;
+    background: linear-gradient(45deg, #4CAF50, #81C784, #C8E6C9); /* A green gradient for visual appeal */
+    width: 0%; /* Start with no progress */
+    border-radius: 20px;
+    transition: width 0.4s ease-out; /* Smooth transition for width changes */
+    position: relative; /* Position relative for pseudo-elements */
+}
+
+.progress-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.3), transparent); /* Light gloss */
+    animation: moveGloss 2s infinite linear; /* Moving gloss animation */
+}
+
+@keyframes moveGloss {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+/* Additional customizations for 1960s aesthetics */
