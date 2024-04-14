@@ -4,6 +4,7 @@ from rest_framework import status
 from django.shortcuts import render, redirect
 from django.http import JsonResponse, HttpResponse
 import json
+import requests
 
 class QuestionnaireAPIView(APIView):
     """
@@ -24,11 +25,21 @@ def submit_questionnaire(request):
     if request.method == 'POST':
         # Your logic here, e.g., processing form data
         received_data = json.loads(request.body)
-
+        print(received_data)
+        API_ENDPOINT = "https://gjd68dgy02.execute-api.eu-west-3.amazonaws.com/defualt/CarreerFinderData/result"
+        #TODO enlever le commentaire apres la fin des dev
+        #r = requests.post(url=API_ENDPOINT, data=request.body)
+        r={"text":None}
+        r.text = {
+    "statusCode": 200,
+    "Role": "Data Engineer",
+    "summary": "you are like Ahmed BAHRI , mais ahmed bahri is better than you , a joke for my follow dev Hassen khannousi"
+        }
         response_data = {
             "status": "success",
-            "echoedData": received_data
+            "echoedData": r.text
         }
+
         return JsonResponse(response_data)
 
 

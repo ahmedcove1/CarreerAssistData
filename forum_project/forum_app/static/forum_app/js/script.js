@@ -29,9 +29,9 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .then(response => response.json())
         .then(data => {
-            // Assuming 'echoedData' is the correct key from your response; adjust as needed
             console.log(data.status)
-            sessionStorage.setItem('respond', JSON.stringify(data.echoedData));
+
+            sessionStorage.setItem('respond', JSON.stringify(data.answer));
             // Redirect to a result page; ensure '/result/' is the correct path
             window.location.href = '/result/';
         })
