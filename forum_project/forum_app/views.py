@@ -29,15 +29,14 @@ def submit_questionnaire(request):
         API_ENDPOINT = "https://gjd68dgy02.execute-api.eu-west-3.amazonaws.com/defualt/CarreerFinderData/result"
         #TODO enlever le commentaire apres la fin des dev
         #r = requests.post(url=API_ENDPOINT, data=request.body)
-        r={"text":None}
-        r.text = {
+        r = {
     "statusCode": 200,
     "Role": "Data Engineer",
     "summary": "you are like Ahmed BAHRI , mais ahmed bahri is better than you , a joke for my follow dev Hassen khannousi"
         }
         response_data = {
             "status": "success",
-            "echoedData": r.text
+            "answer": r
         }
 
         return JsonResponse(response_data)
