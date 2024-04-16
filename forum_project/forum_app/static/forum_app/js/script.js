@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             sessionStorage.setItem('respond', JSON.stringify(data.answer));
             // Redirect to a result page; ensure '/result/' is the correct path
-            window.location.href = '/result/';
+           document.getElementById('questionnaireForm').innerHTML = JSON.stringify(data.answer);
         })
         .catch(error => console.error('Error:', error));
     }
