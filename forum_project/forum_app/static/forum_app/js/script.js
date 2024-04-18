@@ -1,23 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const cards = document.querySelectorAll('.card');
+    const cards = document.querySelectorAll('.question');
     let currentCard = 0;
     let answers = {};
-
-    function updateProgressBar(questionNumber, totalQuestions) {
-        const progressBar = document.getElementById('progressBar');
-        const width = ((questionNumber + 1) / totalQuestions) * 100;
-        progressBar.style.width = width + '%';
-    }
-    function showCard(index) {
-        cards.forEach((card, i) => card.classList.toggle('active', i === index));
-        updateProgressBar(index, cards.length); // Pass the current card index and total number of cards
-
-    }
 
     function submitAnswers() {
         console.log("Réponses à envoyer :", answers);
         // Ensure you have a correct 'action' attribute in your form or adjust the URL here
-        const submitURL = document.getElementById('questionnaireForm').getAttribute('action');
+        const submitURL = '/submit_questionnaire/'
 
         fetch(submitURL, {
             method: 'POST',
@@ -33,7 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
             sessionStorage.setItem('respond', JSON.stringify(data.answer));
             // Redirect to a result page; ensure '/result/' is the correct path
-           document.getElementById('questionnaireForm').innerHTML = JSON.stringify(data.answer);
         })
         .catch(error => console.error('Error:', error));
     }
@@ -41,19 +29,16 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.answer').forEach(button => {
         button.addEventListener('click', function() {
             const question = this.getAttribute('data-question');
-            answers[`q${question}`] = this.value;
+            answers[`q${question}`] = this.getAttribute('data-value');
             const nextCard = currentCard + 1;
             if (nextCard < cards.length) {
                 currentCard = nextCard;
-                showCard(currentCard);
             } else {
                 console.log("All questions answered.", answers);
                 submitAnswers(); // Call to submit all answers to the backend
             }
         });
     });
-
-    showCard(currentCard); // Initially show the first card
 });
 
 

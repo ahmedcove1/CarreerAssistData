@@ -134,6 +134,12 @@ input#index2:checked + input + input + input + input + input + input + input + i
   cursor: pointer;
   transform: scale(0);
 }
+input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__mars div {
+  -webkit-animation: scale 1s 2.1s forwards;
+          animation: scale 1s 2.1s forwards;
+  cursor: pointer;
+  transform: scale(0);
+}
 input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(1) {
   -webkit-animation: scale 1s 2.06s forwards;
           animation: scale 1s 2.06s forwards;
@@ -230,6 +236,11 @@ input#index2:not(:checked) + input + input + input + input + input + input + inp
   transform: scale(1);
 }
 input#index2:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__mars img {
+  -webkit-animation: scaleBack 0.3s 0.2s forwards;
+          animation: scaleBack 0.3s 0.2s forwards;
+  transform: scale(1);
+}
+input#index2:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__mars div {
   -webkit-animation: scaleBack 0.3s 0.2s forwards;
           animation: scaleBack 0.3s 0.2s forwards;
   transform: scale(1);
@@ -355,6 +366,11 @@ input#index3:checked + input + input + input + input + input + input + input + i
           animation: scale 1s 2.2s forwards;
   transform: scale(0);
 }
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people label:nth-of-type(4) {
+  -webkit-animation: scale 1s 2.2s forwards;
+          animation: scale 1s 2.2s forwards;
+  transform: scale(0);
+}
 input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__small {
   -webkit-animation: scale 1s 2.3s forwards;
           animation: scale 1s 2.3s forwards;
@@ -457,6 +473,11 @@ input#index3:not(:checked) + input + input + input + input + input + input + inp
   transform: scale(1);
 }
 input#index3:not(:checked) + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people label:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.2s forwards;
+          animation: scaleBack 0.3s 0.2s forwards;
+  transform: scale(1);
+}
+input#index3:not(:checked) + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people label:nth-of-type(4) {
   -webkit-animation: scaleBack 0.3s 0.2s forwards;
           animation: scaleBack 0.3s 0.2s forwards;
   transform: scale(1);
@@ -592,6 +613,11 @@ input#index4:checked + input + input + input + input + input + input + input + i
           animation: scale 1s 2.2s forwards;
   transform: scale(0);
 }
+input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(4) {
+  -webkit-animation: scale 1s 2.2s forwards;
+          animation: scale 1s 2.2s forwards;
+  transform: scale(0);
+}
 input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__small {
   -webkit-animation: scale 1s 2.3s forwards;
           animation: scale 1s 2.3s forwards;
@@ -694,6 +720,11 @@ input#index4:not(:checked) + input + input + input + input + input + input + inp
   transform: scale(1);
 }
 input#index4:not(:checked) + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.2s forwards;
+          animation: scaleBack 0.3s 0.2s forwards;
+  transform: scale(1);
+}
+input#index4:not(:checked) + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(4) {
   -webkit-animation: scaleBack 0.3s 0.2s forwards;
           animation: scaleBack 0.3s 0.2s forwards;
   transform: scale(1);
@@ -829,6 +860,11 @@ input#index5:checked + input + input + input + input + input + input + input + i
           animation: scale 1s 2.2s forwards;
   transform: scale(0);
 }
+input#index5:checked + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(4) {
+  -webkit-animation: scale 1s 2.2s forwards;
+          animation: scale 1s 2.2s forwards;
+  transform: scale(0);
+}
 input#index5:checked + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
   -webkit-animation: scale 1s 2.3s forwards;
           animation: scale 1s 2.3s forwards;
@@ -931,6 +967,11 @@ input#index5:not(:checked) + input + input + input + input + input + input + inp
   transform: scale(1);
 }
 input#index5:not(:checked) + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.2s forwards;
+          animation: scaleBack 0.3s 0.2s forwards;
+  transform: scale(1);
+}
+input#index5:not(:checked) + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(4) {
   -webkit-animation: scaleBack 0.3s 0.2s forwards;
           animation: scaleBack 0.3s 0.2s forwards;
   transform: scale(1);
@@ -1066,6 +1107,11 @@ input#index6:checked + input + input + input + input + input + input + input + d
           animation: scale 1s 2.2s forwards;
   transform: scale(0);
 }
+input#index6:checked + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(4) {
+  -webkit-animation: scale 1s 2.2s forwards;
+          animation: scale 1s 2.2s forwards;
+  transform: scale(0);
+}
 input#index6:checked + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
   -webkit-animation: scale 1s 2.3s forwards;
           animation: scale 1s 2.3s forwards;
@@ -1168,6 +1214,11 @@ input#index6:not(:checked) + input + input + input + input + input + input + inp
   transform: scale(1);
 }
 input#index6:not(:checked) + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.2s forwards;
+          animation: scaleBack 0.3s 0.2s forwards;
+  transform: scale(1);
+}
+input#index6:not(:checked) + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(4) {
   -webkit-animation: scaleBack 0.3s 0.2s forwards;
           animation: scaleBack 0.3s 0.2s forwards;
   transform: scale(1);
@@ -1303,6 +1354,11 @@ input#index7:checked + input + input + input + input + input + input + div + div
           animation: scale 1s 2.2s forwards;
   transform: scale(0);
 }
+input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(4) {
+  -webkit-animation: scale 1s 2.2s forwards;
+          animation: scale 1s 2.2s forwards;
+  transform: scale(0);
+}
 input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
   -webkit-animation: scale 1s 2.3s forwards;
           animation: scale 1s 2.3s forwards;
@@ -1405,6 +1461,11 @@ input#index7:not(:checked) + input + input + input + input + input + input + div
   transform: scale(1);
 }
 input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.2s forwards;
+          animation: scaleBack 0.3s 0.2s forwards;
+  transform: scale(1);
+}
+input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(4) {
   -webkit-animation: scaleBack 0.3s 0.2s forwards;
           animation: scaleBack 0.3s 0.2s forwards;
   transform: scale(1);
@@ -1540,6 +1601,11 @@ input#index8:checked + input + input + input + input + input + div + div + div +
           animation: scale 1s 2.2s forwards;
   transform: scale(0);
 }
+input#index8:checked + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(4) {
+  -webkit-animation: scale 1s 2.2s forwards;
+          animation: scale 1s 2.2s forwards;
+  transform: scale(0);
+}
 input#index8:checked + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
   -webkit-animation: scale 1s 2.3s forwards;
           animation: scale 1s 2.3s forwards;
@@ -1642,6 +1708,11 @@ input#index8:not(:checked) + input + input + input + input + input + div + div +
   transform: scale(1);
 }
 input#index8:not(:checked) + input + input + input + input + input div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.2s forwards;
+          animation: scaleBack 0.3s 0.2s forwards;
+  transform: scale(1);
+}
+input#index8:not(:checked) + input + input + input + input + input div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(4) {
   -webkit-animation: scaleBack 0.3s 0.2s forwards;
           animation: scaleBack 0.3s 0.2s forwards;
   transform: scale(1);
@@ -1777,6 +1848,11 @@ input#index9:checked + input + input + input + input + div + div + div + div + d
           animation: scale 1s 2.2s forwards;
   transform: scale(0);
 }
+input#index9:checked + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(4) {
+  -webkit-animation: scale 1s 2.2s forwards;
+          animation: scale 1s 2.2s forwards;
+  transform: scale(0);
+}
 input#index9:checked + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
   -webkit-animation: scale 1s 2.3s forwards;
           animation: scale 1s 2.3s forwards;
@@ -1879,6 +1955,11 @@ input#index9:not(:checked) + input + input + input + input + div + div + div + d
   transform: scale(1);
 }
 input#index9:not(:checked) + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.2s forwards;
+          animation: scaleBack 0.3s 0.2s forwards;
+  transform: scale(1);
+}
+input#index9:not(:checked) + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(4) {
   -webkit-animation: scaleBack 0.3s 0.2s forwards;
           animation: scaleBack 0.3s 0.2s forwards;
   transform: scale(1);
@@ -2013,6 +2094,11 @@ input#index10:checked + input + input + input + div + div + div + div + div + di
           animation: scale 1s 2.2s forwards;
   transform: scale(0);
 }
+input#index10:checked + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(4) {
+  -webkit-animation: scale 1s 2.2s forwards;
+          animation: scale 1s 2.2s forwards;
+  transform: scale(0);
+}
 input#index10:checked + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
   -webkit-animation: scale 1s 2.3s forwards;
           animation: scale 1s 2.3s forwards;
@@ -2115,6 +2201,11 @@ input#index10:not(:checked) + input + input + input + div + div + div + div + di
   transform: scale(1);
 }
 input#index10:not(:checked) + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.2s forwards;
+          animation: scaleBack 0.3s 0.2s forwards;
+  transform: scale(1);
+}
+input#index10:not(:checked) + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(4) {
   -webkit-animation: scaleBack 0.3s 0.2s forwards;
           animation: scaleBack 0.3s 0.2s forwards;
   transform: scale(1);
@@ -2249,6 +2340,11 @@ input#index11:checked + input + input + div + div + div + div + div + div + div 
           animation: scale 1s 2.2s forwards;
   transform: scale(0);
 }
+input#index11:checked + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(4) {
+  -webkit-animation: scale 1s 2.2s forwards;
+          animation: scale 1s 2.2s forwards;
+  transform: scale(0);
+}
 input#index11:checked + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
   -webkit-animation: scale 1s 2.3s forwards;
           animation: scale 1s 2.3s forwards;
@@ -2351,6 +2447,11 @@ input#index11:not(:checked) + input + input + div + div + div + div + div + div 
   transform: scale(1);
 }
 input#index11:not(:checked) + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.2s forwards;
+          animation: scaleBack 0.3s 0.2s forwards;
+  transform: scale(1);
+}
+input#index11:not(:checked) + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(4) {
   -webkit-animation: scaleBack 0.3s 0.2s forwards;
           animation: scaleBack 0.3s 0.2s forwards;
   transform: scale(1);
@@ -2485,6 +2586,11 @@ input#index12:checked + input + div + div + div + div + div + div + div + div + 
           animation: scale 1s 2.2s forwards;
   transform: scale(0);
 }
+input#index12:checked + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(4) {
+  -webkit-animation: scale 1s 2.2s forwards;
+          animation: scale 1s 2.2s forwards;
+  transform: scale(0);
+}
 input#index12:checked + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
   -webkit-animation: scale 1s 2.3s forwards;
           animation: scale 1s 2.3s forwards;
@@ -2587,6 +2693,11 @@ input#index12:not(:checked) + input + div + div + div + div + div + div + div + 
   transform: scale(1);
 }
 input#index12:not(:checked) + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.2s forwards;
+          animation: scaleBack 0.3s 0.2s forwards;
+  transform: scale(1);
+}
+input#index12:not(:checked) + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(4) {
   -webkit-animation: scaleBack 0.3s 0.2s forwards;
           animation: scaleBack 0.3s 0.2s forwards;
   transform: scale(1);
@@ -3034,26 +3145,40 @@ body {
   margin: auto;
   top: 50%;
   transform: translatey(-50%) skewY(-10deg);
-  width: 447px;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
 }
 .mars_scene.development .intro_development__small {
-  font-size: 60px;
+  font-size: 72px;
   font-family: "pasta";
   position: relative;
-  left: 80px;
+  left: 26px;
   top: 13px;
   color: #8f3025;
   transform: scale(0);
 }
 .mars_scene.development .intro_development__mars {
+  display: flex;
   transform: skewY(10deg);
-  margin-top: 70px;
+  margin-top: 142px;
+  gap: 128px;
 }
 .mars_scene.development .intro_development__mars img {
   width: 300px;
   position: relative;
   transform: scale(0);
   left: -16px;
+}
+.mars_scene.development .intro_development__mars div {
+  position: relative;
+  font-family: "Retrocycles";
+  color: white;
+  text-shadow: -4px 5px #953127;
+  font-size: 28px;
+  z-index: 1;
+  top: -220px;
+  text-align: center;
 }
 .mars_scene.development .intro_development__large {
   font-family: "Retrocycles";
@@ -3075,8 +3200,8 @@ body {
   left: 0;
   right: 0;
   margin: auto;
-  width: 230px;
-  top: 50%;
+  width: 364px;
+  top: 45%;
   transform: translateY(calc(-50% - 129px));
 }
 .mars_scene.people .intro_people {
@@ -3107,10 +3232,10 @@ body {
   margin: 0 auto;
   top: calc(50% - 70px);
   text-align: center;
-  left: 200px;
+  left: 100px;
   right: 0;
   position: absolute;
-  width: 100px;
+  width: 200px;
   cursor: pointer;
   transition: all 0.5s;
 }
@@ -3118,7 +3243,7 @@ body {
   box-shadow: -6px 8px #872f23;
 }
 .mars_scene.people .intro_people label:nth-of-type(1) {
-  left: -50px;
+  left: -500px;
 }
 .mars_scene.people .intro_people label:nth-of-type(1):hover + label + label +label + div .fam1 {
   opacity: 1;
@@ -3131,7 +3256,7 @@ body {
   bottom: 0px;
 }
 .mars_scene.people .intro_people label:nth-of-type(2) {
-  left: 200px;
+  left: 50px;
 }
 .mars_scene.people .intro_people label:nth-of-type(2):hover + label + label + div .fam2 {
   opacity: 1;
@@ -3144,7 +3269,7 @@ body {
   bottom: 0px;
 }
 .mars_scene.people .intro_people label:nth-of-type(3) {
-  left: 400px;
+  left: 420px;
 }
 .mars_scene.people .intro_people label:nth-of-type(3):hover + label + div .fam3 {
   opacity: 1;
@@ -3156,7 +3281,7 @@ body {
   bottom: 0px;
 }
 .mars_scene.people .intro_people label:nth-of-type(4) {
-  left: 600px;
+  left: 690px;
 }
 .mars_scene.people .intro_people label:nth-of-type(4):hover + div .fam3 {
   opacity: 1;
@@ -3238,12 +3363,12 @@ body {
   left: 200px;
   right: 0;
   position: absolute;
-  width: 100px;
+  width: 200px;
   cursor: pointer;
   transition: all 0.5s;
 }
 .mars_scene.hab .intro_hab label:nth-of-type(1) {
-  left: 80px;
+  left: -100px;
 }
 .mars_scene.hab .intro_hab label:nth-of-type(1):hover + label + label + div .fam1 {
   opacity: 1;
@@ -3255,7 +3380,7 @@ body {
   bottom: 0px;
 }
 .mars_scene.hab .intro_hab label:nth-of-type(2) {
-  left: 200px;
+  left: 140px;
 }
 .mars_scene.hab .intro_hab label:nth-of-type(2):hover + label + div .fam2 {
   opacity: 1;
@@ -3267,7 +3392,7 @@ body {
   bottom: 0px;
 }
 .mars_scene.hab .intro_hab label:nth-of-type(3) {
-  left: 320px;
+  left: 380px;
 }
 .mars_scene.hab .intro_hab label:nth-of-type(3):hover + div .fam3 {
   opacity: 1;
@@ -3279,7 +3404,7 @@ body {
   bottom: 0px;
 }
 .mars_scene.hab .intro_hab label:nth-of-type(4) {
-  left: 440px;
+  left: 620px;
 }
 .mars_scene.hab .intro_hab label:nth-of-type(4):hover + div .fam3 {
   opacity: 1;
