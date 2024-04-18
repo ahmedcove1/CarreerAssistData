@@ -2,7 +2,7 @@
 
 Name: Traverse through scenes
 Description: Makes it incredibly easy to trigger scene changes using the checkbox *hack*
-Instead of doing  input#index39:checked + input + div + div { props }
+Instead of doing  input#index39:checked + input + input + div + div { props }
 
 --------------------------------------------------------------------------------------------------------- */
 input[type=radio] {
@@ -17,1040 +17,2679 @@ Checked not checked mixins
 /* ----------------------------------
 
 Init the traverse
-
 ------------------------------------- */
-input#index1:checked + input + input + input + input + input + div + div + div + div + div {
+
+input#index1:checked + input + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div {
   transform: scale(1);
 }
 
-input#index1:not(:checked) + input + input + input + input + input + div + div + div + div + div {
+input#index1:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div {
   transform: scale(0);
 }
 
-input#index1:checked + input + input + input + input + input + div + div + div {
+input#index1:checked + input + input + input + input + input + input + input + input + input + input + input + input + div + div + div {
   background-position: -2200px 0;
 }
 
-input#index1:checked + input + input + input + input + input + div + div + div + div {
+input#index1:checked + input + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div {
   background-position: -1000px 0;
 }
 
-input#index1:checked + input + input + input + input + input + div {
+input#index1:checked + input + input + input + input + input + input + input + input + input + input + input + input + div {
   right: 300px;
 }
 
 /* ----------------------------------
 
 Animation chains
-
+Q0
 ------------------------------------- */
-input#index1:checked + input + input + input + input + input + div + div + div + div + div p {
+ input#index1:checked + input + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div p {
   -webkit-animation: in 1s 1s forwards;
           animation: in 1s 1s forwards;
 }
 
-input#index1:not(:checked) + input + input + input + input + input + div + div + div + div + div.start .intro_small {
+input#index1:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div.start .intro_small {
   -webkit-animation: scaleBack 0.3s 0.6s forwards;
           animation: scaleBack 0.3s 0.6s forwards;
   transform: scale(1);
 }
-input#index1:not(:checked) + input + input + input + input + input + div + div + div + div + div.start .intro_to {
+input#index1:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div.start .intro_to {
   -webkit-animation: scaleBack 0.3s 0.7s forwards;
           animation: scaleBack 0.3s 0.7s forwards;
   transform: scale(1);
 }
-input#index1:not(:checked) + input + input + input + input + input + div + div + div + div + div.start .intro_large span {
+input#index1:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div.start .intro_large span {
   transform: scale(1);
 }
-input#index1:not(:checked) + input + input + input + input + input + div + div + div + div + div.start .intro_large span:nth-of-type(1) {
+input#index1:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div.start .intro_large span:nth-of-type(1) {
   -webkit-animation: scaleBack 0.3s 0.5s forwards;
           animation: scaleBack 0.3s 0.5s forwards;
 }
-input#index1:not(:checked) + input + input + input + input + input + div + div + div + div + div.start .intro_large span:nth-of-type(2) {
+input#index1:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div.start .intro_large span:nth-of-type(2) {
   -webkit-animation: scaleBack 0.3s 0.3s forwards;
           animation: scaleBack 0.3s 0.3s forwards;
 }
-input#index1:not(:checked) + input + input + input + input + input + div + div + div + div + div.start .intro_large span:nth-of-type(3) {
+input#index1:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div.start .intro_large span:nth-of-type(3) {
   -webkit-animation: scaleBack 0.3s 0.4s forwards;
           animation: scaleBack 0.3s 0.4s forwards;
 }
-input#index1:not(:checked) + input + input + input + input + input + div + div + div + div + div.start .intro_large span:nth-of-type(4) {
+input#index1:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div.start .intro_large span:nth-of-type(4) {
   -webkit-animation: scaleBack 0.3s 0.2s forwards;
           animation: scaleBack 0.3s 0.2s forwards;
 }
-input#index1:not(:checked) + input + input + input + input + input + div + div + div + div + div.start .intro_subheading {
+input#index1:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div.start .intro_subheading {
   -webkit-animation: scaleBack 0.3s 0.1s forwards;
           animation: scaleBack 0.3s 0.1s forwards;
   transform: scale(1);
 }
-input#index1:not(:checked) + input + input + input + input + input + div + div + div + div + div.start label {
+input#index1:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div.start label {
   -webkit-animation: scaleBack 0.3s 0s forwards;
           animation: scaleBack 0.3s 0s forwards;
   transform: scale(1);
 }
 
-input#index2:checked + input + input + input + input + div + div + div + div + div + div {
+input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div {
   transform: scale(1);
 }
 
-input#index2:not(:checked) + input + input + input + input + div + div + div + div + div + div {
+input#index2:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div {
   transform: scale(0);
 }
 
-input#index2:checked + input + input + input + input + div + div + div {
+input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div + div + div {
   background-position: -4400px 0;
 }
 
-input#index2:checked + input + input + input + input + div + div + div + div {
+input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div {
   background-position: -2000px 0;
 }
 
-input#index2:checked + input + input + input + input + div {
+input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div {
   right: 2200px;
 }
 
 /* ----------------------------------
 
 Animation chains
-
+Q1
 ------------------------------------- */
-input#index2:checked + input + input + input + input + div + div + div + div + div + div .intro_peeps img {
+input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_peeps img {
   -webkit-animation: slideUp 0.8s 2s forwards;
           animation: slideUp 0.8s 2s forwards;
   bottom: -400px;
 }
-input#index2:checked + input + input + input + input + div + div + div + div + div + div .intro_development {
+input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development {
   -webkit-animation: bob 3s 1.8s infinite;
           animation: bob 3s 1.8s infinite;
 }
-input#index2:checked + input + input + input + input + div + div + div + div + div + div .intro_development__small {
+input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__small {
   -webkit-animation: scale 1s 2s forwards;
           animation: scale 1s 2s forwards;
   transform: scale(0);
 }
-input#index2:checked + input + input + input + input + div + div + div + div + div + div .intro_development__mars img {
+input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__mars img {
   -webkit-animation: scale 1s 2.1s forwards;
           animation: scale 1s 2.1s forwards;
   cursor: pointer;
   transform: scale(0);
 }
-input#index2:checked + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(1) {
+input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(1) {
   -webkit-animation: scale 1s 2.06s forwards;
           animation: scale 1s 2.06s forwards;
   transform: scale(0);
 }
-input#index2:checked + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(2) {
+input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(2) {
   -webkit-animation: scale 1s 2.12s forwards;
           animation: scale 1s 2.12s forwards;
   transform: scale(0);
 }
-input#index2:checked + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(3) {
+input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(3) {
   -webkit-animation: scale 1s 2.18s forwards;
           animation: scale 1s 2.18s forwards;
   transform: scale(0);
 }
-input#index2:checked + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(4) {
+input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(4) {
   -webkit-animation: scale 1s 2.24s forwards;
           animation: scale 1s 2.24s forwards;
   transform: scale(0);
 }
-input#index2:checked + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(5) {
+input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(5) {
   -webkit-animation: scale 1s 2.3s forwards;
           animation: scale 1s 2.3s forwards;
   transform: scale(0);
 }
-input#index2:checked + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(6) {
+input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(6) {
   -webkit-animation: scale 1s 2.36s forwards;
           animation: scale 1s 2.36s forwards;
   transform: scale(0);
 }
-input#index2:checked + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(7) {
+input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(7) {
   -webkit-animation: scale 1s 2.42s forwards;
           animation: scale 1s 2.42s forwards;
   transform: scale(0);
 }
-input#index2:checked + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(8) {
+input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(8) {
   -webkit-animation: scale 1s 2.48s forwards;
           animation: scale 1s 2.48s forwards;
   transform: scale(0);
 }
-input#index2:checked + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(9) {
+input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(9) {
   -webkit-animation: scale 1s 2.54s forwards;
           animation: scale 1s 2.54s forwards;
   transform: scale(0);
 }
-input#index2:checked + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(10) {
+input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(10) {
   -webkit-animation: scale 1s 2.6s forwards;
           animation: scale 1s 2.6s forwards;
   transform: scale(0);
 }
-input#index2:checked + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(11) {
+input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(11) {
   -webkit-animation: scale 1s 2.66s forwards;
           animation: scale 1s 2.66s forwards;
   transform: scale(0);
 }
-input#index2:checked + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(12) {
+input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(12) {
   -webkit-animation: scale 1s 2.72s forwards;
           animation: scale 1s 2.72s forwards;
   transform: scale(0);
 }
-input#index2:checked + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(13) {
+input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(13) {
   -webkit-animation: scale 1s 2.78s forwards;
           animation: scale 1s 2.78s forwards;
   transform: scale(0);
 }
-input#index2:checked + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(14) {
+input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(14) {
   -webkit-animation: scale 1s 2.84s forwards;
           animation: scale 1s 2.84s forwards;
   transform: scale(0);
 }
-input#index2:checked + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(15) {
+input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(15) {
   -webkit-animation: scale 1s 2.9s forwards;
           animation: scale 1s 2.9s forwards;
   transform: scale(0);
 }
-input#index2:checked + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(16) {
+input#index2:checked + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(16) {
   -webkit-animation: scale 1s 2.96s forwards;
           animation: scale 1s 2.96s forwards;
   transform: scale(0);
 }
 
-input#index2:not(:checked) + input + input + input + input + div + div + div + div + div + div .intro_peeps img {
+input#index2:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_peeps img {
   -webkit-animation: slideBack 0.5s 0s forwards;
           animation: slideBack 0.5s 0s forwards;
   bottom: 0;
 }
-input#index2:not(:checked) + input + input + input + input + div + div + div + div + div + div .intro_development {
+input#index2:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development {
   -webkit-animation: bob 3s 1.8s infinite;
           animation: bob 3s 1.8s infinite;
 }
-input#index2:not(:checked) + input + input + input + input + div + div + div + div + div + div .intro_development__small {
+input#index2:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__small {
   -webkit-animation: scaleBack 0.3s 0.1s forwards;
           animation: scaleBack 0.3s 0.1s forwards;
   transform: scale(1);
 }
-input#index2:not(:checked) + input + input + input + input + div + div + div + div + div + div .intro_development__mars img {
+input#index2:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__mars img {
   -webkit-animation: scaleBack 0.3s 0.2s forwards;
           animation: scaleBack 0.3s 0.2s forwards;
   transform: scale(1);
 }
-input#index2:not(:checked) + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(1) {
+input#index2:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(1) {
   -webkit-animation: scaleBack 0.3s 0.34s forwards;
           animation: scaleBack 0.3s 0.34s forwards;
   transform: scale(1);
 }
-input#index2:not(:checked) + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(2) {
+input#index2:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(2) {
   -webkit-animation: scaleBack 0.3s 0.38s forwards;
           animation: scaleBack 0.3s 0.38s forwards;
   transform: scale(1);
 }
-input#index2:not(:checked) + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(3) {
+input#index2:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(3) {
   -webkit-animation: scaleBack 0.3s 0.42s forwards;
           animation: scaleBack 0.3s 0.42s forwards;
   transform: scale(1);
 }
-input#index2:not(:checked) + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(4) {
+input#index2:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(4) {
   -webkit-animation: scaleBack 0.3s 0.46s forwards;
           animation: scaleBack 0.3s 0.46s forwards;
   transform: scale(1);
 }
-input#index2:not(:checked) + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(5) {
+input#index2:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(5) {
   -webkit-animation: scaleBack 0.3s 0.5s forwards;
           animation: scaleBack 0.3s 0.5s forwards;
   transform: scale(1);
 }
-input#index2:not(:checked) + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(6) {
+input#index2:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(6) {
   -webkit-animation: scaleBack 0.3s 0.54s forwards;
           animation: scaleBack 0.3s 0.54s forwards;
   transform: scale(1);
 }
-input#index2:not(:checked) + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(7) {
+input#index2:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(7) {
   -webkit-animation: scaleBack 0.3s 0.58s forwards;
           animation: scaleBack 0.3s 0.58s forwards;
   transform: scale(1);
 }
-input#index2:not(:checked) + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(8) {
+input#index2:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(8) {
   -webkit-animation: scaleBack 0.3s 0.62s forwards;
           animation: scaleBack 0.3s 0.62s forwards;
   transform: scale(1);
 }
-input#index2:not(:checked) + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(9) {
+input#index2:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(9) {
   -webkit-animation: scaleBack 0.3s 0.66s forwards;
           animation: scaleBack 0.3s 0.66s forwards;
   transform: scale(1);
 }
-input#index2:not(:checked) + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(10) {
+input#index2:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(10) {
   -webkit-animation: scaleBack 0.3s 0.7s forwards;
           animation: scaleBack 0.3s 0.7s forwards;
   transform: scale(1);
 }
-input#index2:not(:checked) + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(11) {
+input#index2:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(11) {
   -webkit-animation: scaleBack 0.3s 0.74s forwards;
           animation: scaleBack 0.3s 0.74s forwards;
   transform: scale(1);
 }
-input#index2:not(:checked) + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(12) {
+input#index2:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(12) {
   -webkit-animation: scaleBack 0.3s 0.78s forwards;
           animation: scaleBack 0.3s 0.78s forwards;
   transform: scale(1);
 }
-input#index2:not(:checked) + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(13) {
+input#index2:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(13) {
   -webkit-animation: scaleBack 0.3s 0.82s forwards;
           animation: scaleBack 0.3s 0.82s forwards;
   transform: scale(1);
 }
-input#index2:not(:checked) + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(14) {
+input#index2:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(14) {
   -webkit-animation: scaleBack 0.3s 0.86s forwards;
           animation: scaleBack 0.3s 0.86s forwards;
   transform: scale(1);
 }
-input#index2:not(:checked) + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(15) {
+input#index2:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(15) {
   -webkit-animation: scaleBack 0.3s 0.9s forwards;
           animation: scaleBack 0.3s 0.9s forwards;
   transform: scale(1);
 }
-input#index2:not(:checked) + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(16) {
+input#index2:not(:checked) + input + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div .intro_development__large span:nth-of-type(16) {
   -webkit-animation: scaleBack 0.3s 0.94s forwards;
           animation: scaleBack 0.3s 0.94s forwards;
   transform: scale(1);
 }
 
-input#index3:checked + input + input + input + div + div + div + div + div + div + div {
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div {
   transform: scale(1);
 }
 
-input#index3:not(:checked) + input + input + input + div + div + div + div + div + div + div {
+input#index3:not(:checked) + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div {
   transform: scale(0);
 }
 
-input#index3:checked + input + input + input + div + div + div {
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div {
   background-position: -6600px 0;
 }
 
-input#index3:checked + input + input + input + div + div + div + div {
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div + div {
   background-position: -3000px 0;
 }
 
-input#index3:checked + input + input + input + div {
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div {
   right: 4100px;
 }
 
 /* ----------------------------------
 
 Animation chains
-
+Q2
 ------------------------------------- */
-input#index3:checked + input + input + input + div + div + div + div + div + div + div.people .intro_people label:nth-of-type(1) {
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people label:nth-of-type(1) {
   -webkit-animation: scale 1s 2s forwards;
           animation: scale 1s 2s forwards;
   transform: scale(0);
 }
-input#index3:checked + input + input + input + div + div + div + div + div + div + div.people .intro_people label:nth-of-type(2) {
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people label:nth-of-type(2) {
   -webkit-animation: scale 1s 2.1s forwards;
           animation: scale 1s 2.1s forwards;
   transform: scale(0);
 }
-input#index3:checked + input + input + input + div + div + div + div + div + div + div.people .intro_people label:nth-of-type(3) {
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people label:nth-of-type(3) {
   -webkit-animation: scale 1s 2.2s forwards;
           animation: scale 1s 2.2s forwards;
   transform: scale(0);
 }
-input#index3:checked + input + input + input + div + div + div + div + div + div + div.people .intro_people__small {
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__small {
   -webkit-animation: scale 1s 2.3s forwards;
           animation: scale 1s 2.3s forwards;
   transform: scale(0);
 }
-input#index3:checked + input + input + input + div + div + div + div + div + div + div.people .intro_people__select {
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__select {
   -webkit-animation: scale 1s 2.4s forwards;
           animation: scale 1s 2.4s forwards;
   transform: scale(0);
 }
-input#index3:checked + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(1) {
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(1) {
   -webkit-animation: scale 1s 2.06s forwards;
           animation: scale 1s 2.06s forwards;
   transform: scale(0);
 }
-input#index3:checked + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(2) {
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(2) {
   -webkit-animation: scale 1s 2.12s forwards;
           animation: scale 1s 2.12s forwards;
   transform: scale(0);
 }
-input#index3:checked + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(3) {
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(3) {
   -webkit-animation: scale 1s 2.18s forwards;
           animation: scale 1s 2.18s forwards;
   transform: scale(0);
 }
-input#index3:checked + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(4) {
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(4) {
   -webkit-animation: scale 1s 2.24s forwards;
           animation: scale 1s 2.24s forwards;
   transform: scale(0);
 }
-input#index3:checked + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(5) {
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(5) {
   -webkit-animation: scale 1s 2.3s forwards;
           animation: scale 1s 2.3s forwards;
   transform: scale(0);
 }
-input#index3:checked + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(6) {
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(6) {
   -webkit-animation: scale 1s 2.36s forwards;
           animation: scale 1s 2.36s forwards;
   transform: scale(0);
 }
-input#index3:checked + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(7) {
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(7) {
   -webkit-animation: scale 1s 2.42s forwards;
           animation: scale 1s 2.42s forwards;
   transform: scale(0);
 }
-input#index3:checked + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(8) {
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(8) {
   -webkit-animation: scale 1s 2.48s forwards;
           animation: scale 1s 2.48s forwards;
   transform: scale(0);
 }
-input#index3:checked + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(9) {
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(9) {
   -webkit-animation: scale 1s 2.54s forwards;
           animation: scale 1s 2.54s forwards;
   transform: scale(0);
 }
-input#index3:checked + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(10) {
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(10) {
   -webkit-animation: scale 1s 2.6s forwards;
           animation: scale 1s 2.6s forwards;
   transform: scale(0);
 }
-input#index3:checked + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(11) {
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(11) {
   -webkit-animation: scale 1s 2.66s forwards;
           animation: scale 1s 2.66s forwards;
   transform: scale(0);
 }
-input#index3:checked + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(12) {
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(12) {
   -webkit-animation: scale 1s 2.72s forwards;
           animation: scale 1s 2.72s forwards;
   transform: scale(0);
 }
-input#index3:checked + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(13) {
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(13) {
   -webkit-animation: scale 1s 2.78s forwards;
           animation: scale 1s 2.78s forwards;
   transform: scale(0);
 }
-input#index3:checked + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(14) {
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(14) {
   -webkit-animation: scale 1s 2.84s forwards;
           animation: scale 1s 2.84s forwards;
   transform: scale(0);
 }
-input#index3:checked + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(15) {
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(15) {
   -webkit-animation: scale 1s 2.9s forwards;
           animation: scale 1s 2.9s forwards;
   transform: scale(0);
 }
-input#index3:checked + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(16) {
+input#index3:checked + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(16) {
   -webkit-animation: scale 1s 2.96s forwards;
           animation: scale 1s 2.96s forwards;
   transform: scale(0);
 }
 
-input#index3:not(:checked) + input + input + input + div + div + div + div + div + div + div.people .intro_people label:nth-of-type(1) {
+input#index3:not(:checked) + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people label:nth-of-type(1) {
   -webkit-animation: scaleBack 0.3s 0s forwards;
           animation: scaleBack 0.3s 0s forwards;
   transform: scale(1);
 }
-input#index3:not(:checked) + input + input + input + div + div + div + div + div + div + div.people .intro_people label:nth-of-type(2) {
+input#index3:not(:checked) + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people label:nth-of-type(2) {
   -webkit-animation: scaleBack 0.3s 0.1s forwards;
           animation: scaleBack 0.3s 0.1s forwards;
   transform: scale(1);
 }
-input#index3:not(:checked) + input + input + input + div + div + div + div + div + div + div.people .intro_people label:nth-of-type(3) {
+input#index3:not(:checked) + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people label:nth-of-type(3) {
   -webkit-animation: scaleBack 0.3s 0.2s forwards;
           animation: scaleBack 0.3s 0.2s forwards;
   transform: scale(1);
 }
-input#index3:not(:checked) + input + input + input + div + div + div + div + div + div + div.people .intro_people__select {
+input#index3:not(:checked) + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__select {
   -webkit-animation: scaleBack 0.3s 0.4s forwards;
           animation: scaleBack 0.3s 0.4s forwards;
   transform: scale(1);
 }
-input#index3:not(:checked) + input + input + input + div + div + div + div + div + div + div.people .intro_people__small {
+input#index3:not(:checked) + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__small {
   -webkit-animation: scaleBack 0.3s 0.3s forwards;
           animation: scaleBack 0.3s 0.3s forwards;
   transform: scale(1);
 }
-input#index3:not(:checked) + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(1) {
+input#index3:not(:checked) + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(1) {
   -webkit-animation: scaleBack 0.3s 0.06s forwards;
           animation: scaleBack 0.3s 0.06s forwards;
   transform: scale(1);
 }
-input#index3:not(:checked) + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(2) {
+input#index3:not(:checked) + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(2) {
   -webkit-animation: scaleBack 0.3s 0.12s forwards;
           animation: scaleBack 0.3s 0.12s forwards;
   transform: scale(1);
 }
-input#index3:not(:checked) + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(3) {
+input#index3:not(:checked) + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(3) {
   -webkit-animation: scaleBack 0.3s 0.18s forwards;
           animation: scaleBack 0.3s 0.18s forwards;
   transform: scale(1);
 }
-input#index3:not(:checked) + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(4) {
+input#index3:not(:checked) + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(4) {
   -webkit-animation: scaleBack 0.3s 0.24s forwards;
           animation: scaleBack 0.3s 0.24s forwards;
   transform: scale(1);
 }
-input#index3:not(:checked) + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(5) {
+input#index3:not(:checked) + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(5) {
   -webkit-animation: scaleBack 0.3s 0.3s forwards;
           animation: scaleBack 0.3s 0.3s forwards;
   transform: scale(1);
 }
-input#index3:not(:checked) + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(6) {
+input#index3:not(:checked) + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(6) {
   -webkit-animation: scaleBack 0.3s 0.36s forwards;
           animation: scaleBack 0.3s 0.36s forwards;
   transform: scale(1);
 }
-input#index3:not(:checked) + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(7) {
+input#index3:not(:checked) + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(7) {
   -webkit-animation: scaleBack 0.3s 0.42s forwards;
           animation: scaleBack 0.3s 0.42s forwards;
   transform: scale(1);
 }
-input#index3:not(:checked) + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(8) {
+input#index3:not(:checked) + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(8) {
   -webkit-animation: scaleBack 0.3s 0.48s forwards;
           animation: scaleBack 0.3s 0.48s forwards;
   transform: scale(1);
 }
-input#index3:not(:checked) + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(9) {
+input#index3:not(:checked) + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(9) {
   -webkit-animation: scaleBack 0.3s 0.54s forwards;
           animation: scaleBack 0.3s 0.54s forwards;
   transform: scale(1);
 }
-input#index3:not(:checked) + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(10) {
+input#index3:not(:checked) + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(10) {
   -webkit-animation: scaleBack 0.3s 0.6s forwards;
           animation: scaleBack 0.3s 0.6s forwards;
   transform: scale(1);
 }
-input#index3:not(:checked) + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(11) {
+input#index3:not(:checked) + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(11) {
   -webkit-animation: scaleBack 0.3s 0.66s forwards;
           animation: scaleBack 0.3s 0.66s forwards;
   transform: scale(1);
 }
-input#index3:not(:checked) + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(12) {
+input#index3:not(:checked) + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(12) {
   -webkit-animation: scaleBack 0.3s 0.72s forwards;
           animation: scaleBack 0.3s 0.72s forwards;
   transform: scale(1);
 }
-input#index3:not(:checked) + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(13) {
+input#index3:not(:checked) + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(13) {
   -webkit-animation: scaleBack 0.3s 0.78s forwards;
           animation: scaleBack 0.3s 0.78s forwards;
   transform: scale(1);
 }
-input#index3:not(:checked) + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(14) {
+input#index3:not(:checked) + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(14) {
   -webkit-animation: scaleBack 0.3s 0.84s forwards;
           animation: scaleBack 0.3s 0.84s forwards;
   transform: scale(1);
 }
-input#index3:not(:checked) + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(15) {
+input#index3:not(:checked) + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(15) {
   -webkit-animation: scaleBack 0.3s 0.9s forwards;
           animation: scaleBack 0.3s 0.9s forwards;
   transform: scale(1);
 }
-input#index3:not(:checked) + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(16) {
+input#index3:not(:checked) + input + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div.people .intro_people__large span:nth-of-type(16) {
   -webkit-animation: scaleBack 0.3s 0.96s forwards;
           animation: scaleBack 0.3s 0.96s forwards;
   transform: scale(1);
 }
 
-input#index4:checked + input + input + div + div + div + div + div + div + div + div {
+input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div {
   transform: scale(1);
 }
 
-input#index4:not(:checked) + input + input + div + div + div + div + div + div + div + div {
+input#index4:not(:checked) + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div {
   transform: scale(0);
 }
 
-input#index4:checked + input + input + div + div + div {
+input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div {
   background-position: -8800px 0;
 }
 
-input#index4:checked + input + input + div + div + div + div {
+input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div + div {
   background-position: -4000px 0;
 }
 
-input#index4:checked + input + input + div {
+input#index4:checked + input + input + input + input + input + input + input + input + input + div {
   right: 6000px;
 }
 
 /* ----------------------------------
 
 Animation chains
-
+Q3
 ------------------------------------- */
-input#index4:checked + input + input + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(1) {
+input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(1) {
   -webkit-animation: scale 1s 2s forwards;
           animation: scale 1s 2s forwards;
   transform: scale(0);
 }
-input#index4:checked + input + input + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(2) {
+input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(2) {
   -webkit-animation: scale 1s 2.1s forwards;
           animation: scale 1s 2.1s forwards;
   transform: scale(0);
 }
-input#index4:checked + input + input + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
   -webkit-animation: scale 1s 2.2s forwards;
           animation: scale 1s 2.2s forwards;
   transform: scale(0);
 }
-input#index4:checked + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__small {
+input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__small {
   -webkit-animation: scale 1s 2.3s forwards;
           animation: scale 1s 2.3s forwards;
   transform: scale(0);
 }
-input#index4:checked + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__select {
+input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__select {
   -webkit-animation: scale 1s 2.4s forwards;
           animation: scale 1s 2.4s forwards;
   transform: scale(0);
 }
-input#index4:checked + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(1) {
+input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(1) {
   -webkit-animation: scale 1s 2.06s forwards;
           animation: scale 1s 2.06s forwards;
   transform: scale(0);
 }
-input#index4:checked + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(2) {
+input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(2) {
   -webkit-animation: scale 1s 2.12s forwards;
           animation: scale 1s 2.12s forwards;
   transform: scale(0);
 }
-input#index4:checked + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(3) {
+input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(3) {
   -webkit-animation: scale 1s 2.18s forwards;
           animation: scale 1s 2.18s forwards;
   transform: scale(0);
 }
-input#index4:checked + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(4) {
+input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(4) {
   -webkit-animation: scale 1s 2.24s forwards;
           animation: scale 1s 2.24s forwards;
   transform: scale(0);
 }
-input#index4:checked + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(5) {
+input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(5) {
   -webkit-animation: scale 1s 2.3s forwards;
           animation: scale 1s 2.3s forwards;
   transform: scale(0);
 }
-input#index4:checked + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(6) {
+input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(6) {
   -webkit-animation: scale 1s 2.36s forwards;
           animation: scale 1s 2.36s forwards;
   transform: scale(0);
 }
-input#index4:checked + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(7) {
+input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(7) {
   -webkit-animation: scale 1s 2.42s forwards;
           animation: scale 1s 2.42s forwards;
   transform: scale(0);
 }
-input#index4:checked + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(8) {
+input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(8) {
   -webkit-animation: scale 1s 2.48s forwards;
           animation: scale 1s 2.48s forwards;
   transform: scale(0);
 }
-input#index4:checked + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(9) {
+input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(9) {
   -webkit-animation: scale 1s 2.54s forwards;
           animation: scale 1s 2.54s forwards;
   transform: scale(0);
 }
-input#index4:checked + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(10) {
+input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(10) {
   -webkit-animation: scale 1s 2.6s forwards;
           animation: scale 1s 2.6s forwards;
   transform: scale(0);
 }
-input#index4:checked + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(11) {
+input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(11) {
   -webkit-animation: scale 1s 2.66s forwards;
           animation: scale 1s 2.66s forwards;
   transform: scale(0);
 }
-input#index4:checked + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(12) {
+input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(12) {
   -webkit-animation: scale 1s 2.72s forwards;
           animation: scale 1s 2.72s forwards;
   transform: scale(0);
 }
-input#index4:checked + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(13) {
+input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(13) {
   -webkit-animation: scale 1s 2.78s forwards;
           animation: scale 1s 2.78s forwards;
   transform: scale(0);
 }
-input#index4:checked + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(14) {
+input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(14) {
   -webkit-animation: scale 1s 2.84s forwards;
           animation: scale 1s 2.84s forwards;
   transform: scale(0);
 }
-input#index4:checked + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(15) {
+input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(15) {
   -webkit-animation: scale 1s 2.9s forwards;
           animation: scale 1s 2.9s forwards;
   transform: scale(0);
 }
-input#index4:checked + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(16) {
+input#index4:checked + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(16) {
   -webkit-animation: scale 1s 2.96s forwards;
           animation: scale 1s 2.96s forwards;
   transform: scale(0);
 }
 
-input#index4:not(:checked) + input + input + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(1) {
+input#index4:not(:checked) + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(1) {
   -webkit-animation: scaleBack 0.3s 0s forwards;
           animation: scaleBack 0.3s 0s forwards;
   transform: scale(1);
 }
-input#index4:not(:checked) + input + input + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(2) {
+input#index4:not(:checked) + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(2) {
   -webkit-animation: scaleBack 0.3s 0.1s forwards;
           animation: scaleBack 0.3s 0.1s forwards;
   transform: scale(1);
 }
-input#index4:not(:checked) + input + input + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+input#index4:not(:checked) + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
   -webkit-animation: scaleBack 0.3s 0.2s forwards;
           animation: scaleBack 0.3s 0.2s forwards;
   transform: scale(1);
 }
-input#index4:not(:checked) + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__select {
+input#index4:not(:checked) + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__select {
   -webkit-animation: scaleBack 0.3s 0.4s forwards;
           animation: scaleBack 0.3s 0.4s forwards;
   transform: scale(1);
 }
-input#index4:not(:checked) + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__small {
+input#index4:not(:checked) + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__small {
   -webkit-animation: scaleBack 0.3s 0.3s forwards;
           animation: scaleBack 0.3s 0.3s forwards;
   transform: scale(1);
 }
-input#index4:not(:checked) + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(1) {
+input#index4:not(:checked) + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(1) {
   -webkit-animation: scaleBack 0.3s 0.06s forwards;
           animation: scaleBack 0.3s 0.06s forwards;
   transform: scale(1);
 }
-input#index4:not(:checked) + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(2) {
+input#index4:not(:checked) + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(2) {
   -webkit-animation: scaleBack 0.3s 0.12s forwards;
           animation: scaleBack 0.3s 0.12s forwards;
   transform: scale(1);
 }
-input#index4:not(:checked) + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(3) {
+input#index4:not(:checked) + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(3) {
   -webkit-animation: scaleBack 0.3s 0.18s forwards;
           animation: scaleBack 0.3s 0.18s forwards;
   transform: scale(1);
 }
-input#index4:not(:checked) + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(4) {
+input#index4:not(:checked) + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(4) {
   -webkit-animation: scaleBack 0.3s 0.24s forwards;
           animation: scaleBack 0.3s 0.24s forwards;
   transform: scale(1);
 }
-input#index4:not(:checked) + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(5) {
+input#index4:not(:checked) + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(5) {
   -webkit-animation: scaleBack 0.3s 0.3s forwards;
           animation: scaleBack 0.3s 0.3s forwards;
   transform: scale(1);
 }
-input#index4:not(:checked) + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(6) {
+input#index4:not(:checked) + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(6) {
   -webkit-animation: scaleBack 0.3s 0.36s forwards;
           animation: scaleBack 0.3s 0.36s forwards;
   transform: scale(1);
 }
-input#index4:not(:checked) + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(7) {
+input#index4:not(:checked) + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(7) {
   -webkit-animation: scaleBack 0.3s 0.42s forwards;
           animation: scaleBack 0.3s 0.42s forwards;
   transform: scale(1);
 }
-input#index4:not(:checked) + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(8) {
+input#index4:not(:checked) + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(8) {
   -webkit-animation: scaleBack 0.3s 0.48s forwards;
           animation: scaleBack 0.3s 0.48s forwards;
   transform: scale(1);
 }
-input#index4:not(:checked) + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(9) {
+input#index4:not(:checked) + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(9) {
   -webkit-animation: scaleBack 0.3s 0.54s forwards;
           animation: scaleBack 0.3s 0.54s forwards;
   transform: scale(1);
 }
-input#index4:not(:checked) + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(10) {
+input#index4:not(:checked) + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(10) {
   -webkit-animation: scaleBack 0.3s 0.6s forwards;
           animation: scaleBack 0.3s 0.6s forwards;
   transform: scale(1);
 }
-input#index4:not(:checked) + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(11) {
+input#index4:not(:checked) + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(11) {
   -webkit-animation: scaleBack 0.3s 0.66s forwards;
           animation: scaleBack 0.3s 0.66s forwards;
   transform: scale(1);
 }
-input#index4:not(:checked) + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(12) {
+input#index4:not(:checked) + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(12) {
   -webkit-animation: scaleBack 0.3s 0.72s forwards;
           animation: scaleBack 0.3s 0.72s forwards;
   transform: scale(1);
 }
-input#index4:not(:checked) + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(13) {
+input#index4:not(:checked) + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(13) {
   -webkit-animation: scaleBack 0.3s 0.78s forwards;
           animation: scaleBack 0.3s 0.78s forwards;
   transform: scale(1);
 }
-input#index4:not(:checked) + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(14) {
+input#index4:not(:checked) + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(14) {
   -webkit-animation: scaleBack 0.3s 0.84s forwards;
           animation: scaleBack 0.3s 0.84s forwards;
   transform: scale(1);
 }
-input#index4:not(:checked) + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(15) {
+input#index4:not(:checked) + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(15) {
   -webkit-animation: scaleBack 0.3s 0.9s forwards;
           animation: scaleBack 0.3s 0.9s forwards;
   transform: scale(1);
 }
-input#index4:not(:checked) + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(16) {
+input#index4:not(:checked) + input + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(16) {
   -webkit-animation: scaleBack 0.3s 0.96s forwards;
           animation: scaleBack 0.3s 0.96s forwards;
   transform: scale(1);
 }
 
-input#index5:checked + input + div + div + div + div + div + div + div + div + div {
+input#index5:checked + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div {
   transform: scale(1);
 }
 
-input#index5:not(:checked) + input + div + div + div + div + div + div + div + div + div {
+input#index5:not(:checked) + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div {
   transform: scale(0);
 }
 
-input#index5:checked + input + div + div + div {
+input#index5:checked + input + input + input + input + input + input + input + div + div + div {
   background-position: -11000px 0;
 }
 
-input#index5:checked + input + div + div + div + div {
+input#index5:checked + input + input + input + input + input + input + input + div + div + div + div {
   background-position: -5000px 0;
 }
 
-input#index5:checked + input + div {
-  right: 7900px;
-}
-
-/* ----------------------------------
-
-Animation chains
-
-------------------------------------- */
-input#index5:checked + input + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(1) {
-  -webkit-animation: scale 1s 2s forwards;
-          animation: scale 1s 2s forwards;
-  transform: scale(0);
-}
-input#index5:checked + input + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(2) {
-  -webkit-animation: scale 1s 2.1s forwards;
-          animation: scale 1s 2.1s forwards;
-  transform: scale(0);
-}
-input#index5:checked + input + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
-  -webkit-animation: scale 1s 2.2s forwards;
-          animation: scale 1s 2.2s forwards;
-  transform: scale(0);
-}
-input#index5:checked + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
-  -webkit-animation: scale 1s 2.3s forwards;
-          animation: scale 1s 2.3s forwards;
-  transform: scale(0);
-}
-input#index5:checked + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__select {
-  -webkit-animation: scale 1s 2.4s forwards;
-          animation: scale 1s 2.4s forwards;
-  transform: scale(0);
-}
-input#index5:checked + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(1) {
-  -webkit-animation: scale 1s 2.06s forwards;
-          animation: scale 1s 2.06s forwards;
-  transform: scale(0);
-}
-input#index5:checked + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(2) {
-  -webkit-animation: scale 1s 2.12s forwards;
-          animation: scale 1s 2.12s forwards;
-  transform: scale(0);
-}
-input#index5:checked + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(3) {
-  -webkit-animation: scale 1s 2.18s forwards;
-          animation: scale 1s 2.18s forwards;
-  transform: scale(0);
-}
-input#index5:checked + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(4) {
-  -webkit-animation: scale 1s 2.24s forwards;
-          animation: scale 1s 2.24s forwards;
-  transform: scale(0);
-}
-input#index5:checked + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(5) {
-  -webkit-animation: scale 1s 2.3s forwards;
-          animation: scale 1s 2.3s forwards;
-  transform: scale(0);
-}
-input#index5:checked + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(6) {
-  -webkit-animation: scale 1s 2.36s forwards;
-          animation: scale 1s 2.36s forwards;
-  transform: scale(0);
-}
-input#index5:checked + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(7) {
-  -webkit-animation: scale 1s 2.42s forwards;
-          animation: scale 1s 2.42s forwards;
-  transform: scale(0);
-}
-input#index5:checked + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(8) {
-  -webkit-animation: scale 1s 2.48s forwards;
-          animation: scale 1s 2.48s forwards;
-  transform: scale(0);
-}
-input#index5:checked + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(9) {
-  -webkit-animation: scale 1s 2.54s forwards;
-          animation: scale 1s 2.54s forwards;
-  transform: scale(0);
-}
-input#index5:checked + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(10) {
-  -webkit-animation: scale 1s 2.6s forwards;
-          animation: scale 1s 2.6s forwards;
-  transform: scale(0);
-}
-input#index5:checked + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(11) {
-  -webkit-animation: scale 1s 2.66s forwards;
-          animation: scale 1s 2.66s forwards;
-  transform: scale(0);
-}
-input#index5:checked + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(12) {
-  -webkit-animation: scale 1s 2.72s forwards;
-          animation: scale 1s 2.72s forwards;
-  transform: scale(0);
-}
-input#index5:checked + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(13) {
-  -webkit-animation: scale 1s 2.78s forwards;
-          animation: scale 1s 2.78s forwards;
-  transform: scale(0);
-}
-input#index5:checked + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(14) {
-  -webkit-animation: scale 1s 2.84s forwards;
-          animation: scale 1s 2.84s forwards;
-  transform: scale(0);
-}
-input#index5:checked + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(15) {
-  -webkit-animation: scale 1s 2.9s forwards;
-          animation: scale 1s 2.9s forwards;
-  transform: scale(0);
-}
-input#index5:checked + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(16) {
-  -webkit-animation: scale 1s 2.96s forwards;
-          animation: scale 1s 2.96s forwards;
-  transform: scale(0);
-}
-
-input#index5:not(:checked) + input + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(1) {
-  -webkit-animation: scaleBack 0.3s 0s forwards;
-          animation: scaleBack 0.3s 0s forwards;
-  transform: scale(1);
-}
-input#index5:not(:checked) + input + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(2) {
-  -webkit-animation: scaleBack 0.3s 0.1s forwards;
-          animation: scaleBack 0.3s 0.1s forwards;
-  transform: scale(1);
-}
-input#index5:not(:checked) + input + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
-  -webkit-animation: scaleBack 0.3s 0.2s forwards;
-          animation: scaleBack 0.3s 0.2s forwards;
-  transform: scale(1);
-}
-input#index5:not(:checked) + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__select {
-  -webkit-animation: scaleBack 0.3s 0.4s forwards;
-          animation: scaleBack 0.3s 0.4s forwards;
-  transform: scale(1);
-}
-input#index5:not(:checked) + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
-  -webkit-animation: scaleBack 0.3s 0.3s forwards;
-          animation: scaleBack 0.3s 0.3s forwards;
-  transform: scale(1);
-}
-input#index5:not(:checked) + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(1) {
-  -webkit-animation: scaleBack 0.3s 0.06s forwards;
-          animation: scaleBack 0.3s 0.06s forwards;
-  transform: scale(1);
-}
-input#index5:not(:checked) + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(2) {
-  -webkit-animation: scaleBack 0.3s 0.12s forwards;
-          animation: scaleBack 0.3s 0.12s forwards;
-  transform: scale(1);
-}
-input#index5:not(:checked) + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(3) {
-  -webkit-animation: scaleBack 0.3s 0.18s forwards;
-          animation: scaleBack 0.3s 0.18s forwards;
-  transform: scale(1);
-}
-input#index5:not(:checked) + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(4) {
-  -webkit-animation: scaleBack 0.3s 0.24s forwards;
-          animation: scaleBack 0.3s 0.24s forwards;
-  transform: scale(1);
-}
-input#index5:not(:checked) + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(5) {
-  -webkit-animation: scaleBack 0.3s 0.3s forwards;
-          animation: scaleBack 0.3s 0.3s forwards;
-  transform: scale(1);
-}
-input#index5:not(:checked) + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(6) {
-  -webkit-animation: scaleBack 0.3s 0.36s forwards;
-          animation: scaleBack 0.3s 0.36s forwards;
-  transform: scale(1);
-}
-input#index5:not(:checked) + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(7) {
-  -webkit-animation: scaleBack 0.3s 0.42s forwards;
-          animation: scaleBack 0.3s 0.42s forwards;
-  transform: scale(1);
-}
-input#index5:not(:checked) + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(8) {
-  -webkit-animation: scaleBack 0.3s 0.48s forwards;
-          animation: scaleBack 0.3s 0.48s forwards;
-  transform: scale(1);
-}
-input#index5:not(:checked) + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(9) {
-  -webkit-animation: scaleBack 0.3s 0.54s forwards;
-          animation: scaleBack 0.3s 0.54s forwards;
-  transform: scale(1);
-}
-input#index5:not(:checked) + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(10) {
-  -webkit-animation: scaleBack 0.3s 0.6s forwards;
-          animation: scaleBack 0.3s 0.6s forwards;
-  transform: scale(1);
-}
-input#index5:not(:checked) + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(11) {
-  -webkit-animation: scaleBack 0.3s 0.66s forwards;
-          animation: scaleBack 0.3s 0.66s forwards;
-  transform: scale(1);
-}
-input#index5:not(:checked) + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(12) {
-  -webkit-animation: scaleBack 0.3s 0.72s forwards;
-          animation: scaleBack 0.3s 0.72s forwards;
-  transform: scale(1);
-}
-input#index5:not(:checked) + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(13) {
-  -webkit-animation: scaleBack 0.3s 0.78s forwards;
-          animation: scaleBack 0.3s 0.78s forwards;
-  transform: scale(1);
-}
-input#index5:not(:checked) + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(14) {
-  -webkit-animation: scaleBack 0.3s 0.84s forwards;
-          animation: scaleBack 0.3s 0.84s forwards;
-  transform: scale(1);
-}
-input#index5:not(:checked) + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(15) {
-  -webkit-animation: scaleBack 0.3s 0.9s forwards;
-          animation: scaleBack 0.3s 0.9s forwards;
-  transform: scale(1);
-}
-input#index5:not(:checked) + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(16) {
-  -webkit-animation: scaleBack 0.3s 0.96s forwards;
-          animation: scaleBack 0.3s 0.96s forwards;
-  transform: scale(1);
-}
-
-input#index6:checked + div + div + div + div + div + div + div + div + div + div {
-  transform: scale(1);
-}
-
-input#index6:not(:checked) + div + div + div + div + div + div + div + div + div + div {
-  transform: scale(0);
-}
-
-input#index6:checked + div + div + div {
-  background-position: -13200px 0;
-}
-
-input#index6:checked + div + div + div + div {
-  background-position: -6000px 0;
-}
-
-input#index6:checked + div {
+input#index5:checked + input + input + input + input + input + input + input + div {
   right: 9800px;
 }
 
 /* ----------------------------------
 
 Animation chains
-
+Q4
 ------------------------------------- */
+input#index5:checked + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(1) {
+  -webkit-animation: scale 1s 2s forwards;
+          animation: scale 1s 2s forwards;
+  transform: scale(0);
+}
+input#index5:checked + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(2) {
+  -webkit-animation: scale 1s 2.1s forwards;
+          animation: scale 1s 2.1s forwards;
+  transform: scale(0);
+}
+input#index5:checked + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+  -webkit-animation: scale 1s 2.2s forwards;
+          animation: scale 1s 2.2s forwards;
+  transform: scale(0);
+}
+input#index5:checked + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
+  -webkit-animation: scale 1s 2.3s forwards;
+          animation: scale 1s 2.3s forwards;
+  transform: scale(0);
+}
+input#index5:checked + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__select {
+  -webkit-animation: scale 1s 2.4s forwards;
+          animation: scale 1s 2.4s forwards;
+  transform: scale(0);
+}
+input#index5:checked + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(1) {
+  -webkit-animation: scale 1s 2.06s forwards;
+          animation: scale 1s 2.06s forwards;
+  transform: scale(0);
+}
+input#index5:checked + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(2) {
+  -webkit-animation: scale 1s 2.12s forwards;
+          animation: scale 1s 2.12s forwards;
+  transform: scale(0);
+}
+input#index5:checked + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(3) {
+  -webkit-animation: scale 1s 2.18s forwards;
+          animation: scale 1s 2.18s forwards;
+  transform: scale(0);
+}
+input#index5:checked + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(4) {
+  -webkit-animation: scale 1s 2.24s forwards;
+          animation: scale 1s 2.24s forwards;
+  transform: scale(0);
+}
+input#index5:checked + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(5) {
+  -webkit-animation: scale 1s 2.3s forwards;
+          animation: scale 1s 2.3s forwards;
+  transform: scale(0);
+}
+input#index5:checked + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(6) {
+  -webkit-animation: scale 1s 2.36s forwards;
+          animation: scale 1s 2.36s forwards;
+  transform: scale(0);
+}
+input#index5:checked + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(7) {
+  -webkit-animation: scale 1s 2.42s forwards;
+          animation: scale 1s 2.42s forwards;
+  transform: scale(0);
+}
+input#index5:checked + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(8) {
+  -webkit-animation: scale 1s 2.48s forwards;
+          animation: scale 1s 2.48s forwards;
+  transform: scale(0);
+}
+input#index5:checked + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(9) {
+  -webkit-animation: scale 1s 2.54s forwards;
+          animation: scale 1s 2.54s forwards;
+  transform: scale(0);
+}
+input#index5:checked + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(10) {
+  -webkit-animation: scale 1s 2.6s forwards;
+          animation: scale 1s 2.6s forwards;
+  transform: scale(0);
+}
+input#index5:checked + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(11) {
+  -webkit-animation: scale 1s 2.66s forwards;
+          animation: scale 1s 2.66s forwards;
+  transform: scale(0);
+}
+input#index5:checked + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(12) {
+  -webkit-animation: scale 1s 2.72s forwards;
+          animation: scale 1s 2.72s forwards;
+  transform: scale(0);
+}
+input#index5:checked + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(13) {
+  -webkit-animation: scale 1s 2.78s forwards;
+          animation: scale 1s 2.78s forwards;
+  transform: scale(0);
+}
+input#index5:checked + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(14) {
+  -webkit-animation: scale 1s 2.84s forwards;
+          animation: scale 1s 2.84s forwards;
+  transform: scale(0);
+}
+input#index5:checked + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(15) {
+  -webkit-animation: scale 1s 2.9s forwards;
+          animation: scale 1s 2.9s forwards;
+  transform: scale(0);
+}
+input#index5:checked + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(16) {
+  -webkit-animation: scale 1s 2.96s forwards;
+          animation: scale 1s 2.96s forwards;
+  transform: scale(0);
+}
+
+input#index5:not(:checked) + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(1) {
+  -webkit-animation: scaleBack 0.3s 0s forwards;
+          animation: scaleBack 0.3s 0s forwards;
+  transform: scale(1);
+}
+input#index5:not(:checked) + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(2) {
+  -webkit-animation: scaleBack 0.3s 0.1s forwards;
+          animation: scaleBack 0.3s 0.1s forwards;
+  transform: scale(1);
+}
+input#index5:not(:checked) + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.2s forwards;
+          animation: scaleBack 0.3s 0.2s forwards;
+  transform: scale(1);
+}
+input#index5:not(:checked) + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__select {
+  -webkit-animation: scaleBack 0.3s 0.4s forwards;
+          animation: scaleBack 0.3s 0.4s forwards;
+  transform: scale(1);
+}
+input#index5:not(:checked) + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
+  -webkit-animation: scaleBack 0.3s 0.3s forwards;
+          animation: scaleBack 0.3s 0.3s forwards;
+  transform: scale(1);
+}
+input#index5:not(:checked) + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(1) {
+  -webkit-animation: scaleBack 0.3s 0.06s forwards;
+          animation: scaleBack 0.3s 0.06s forwards;
+  transform: scale(1);
+}
+input#index5:not(:checked) + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(2) {
+  -webkit-animation: scaleBack 0.3s 0.12s forwards;
+          animation: scaleBack 0.3s 0.12s forwards;
+  transform: scale(1);
+}
+input#index5:not(:checked) + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.18s forwards;
+          animation: scaleBack 0.3s 0.18s forwards;
+  transform: scale(1);
+}
+input#index5:not(:checked) + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(4) {
+  -webkit-animation: scaleBack 0.3s 0.24s forwards;
+          animation: scaleBack 0.3s 0.24s forwards;
+  transform: scale(1);
+}
+input#index5:not(:checked) + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(5) {
+  -webkit-animation: scaleBack 0.3s 0.3s forwards;
+          animation: scaleBack 0.3s 0.3s forwards;
+  transform: scale(1);
+}
+input#index5:not(:checked) + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(6) {
+  -webkit-animation: scaleBack 0.3s 0.36s forwards;
+          animation: scaleBack 0.3s 0.36s forwards;
+  transform: scale(1);
+}
+input#index5:not(:checked) + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(7) {
+  -webkit-animation: scaleBack 0.3s 0.42s forwards;
+          animation: scaleBack 0.3s 0.42s forwards;
+  transform: scale(1);
+}
+input#index5:not(:checked) + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(8) {
+  -webkit-animation: scaleBack 0.3s 0.48s forwards;
+          animation: scaleBack 0.3s 0.48s forwards;
+  transform: scale(1);
+}
+input#index5:not(:checked) + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(9) {
+  -webkit-animation: scaleBack 0.3s 0.54s forwards;
+          animation: scaleBack 0.3s 0.54s forwards;
+  transform: scale(1);
+}
+input#index5:not(:checked) + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(10) {
+  -webkit-animation: scaleBack 0.3s 0.6s forwards;
+          animation: scaleBack 0.3s 0.6s forwards;
+  transform: scale(1);
+}
+input#index5:not(:checked) + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(11) {
+  -webkit-animation: scaleBack 0.3s 0.66s forwards;
+          animation: scaleBack 0.3s 0.66s forwards;
+  transform: scale(1);
+}
+input#index5:not(:checked) + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(12) {
+  -webkit-animation: scaleBack 0.3s 0.72s forwards;
+          animation: scaleBack 0.3s 0.72s forwards;
+  transform: scale(1);
+}
+input#index5:not(:checked) + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(13) {
+  -webkit-animation: scaleBack 0.3s 0.78s forwards;
+          animation: scaleBack 0.3s 0.78s forwards;
+  transform: scale(1);
+}
+input#index5:not(:checked) + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(14) {
+  -webkit-animation: scaleBack 0.3s 0.84s forwards;
+          animation: scaleBack 0.3s 0.84s forwards;
+  transform: scale(1);
+}
+input#index5:not(:checked) + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(15) {
+  -webkit-animation: scaleBack 0.3s 0.9s forwards;
+          animation: scaleBack 0.3s 0.9s forwards;
+  transform: scale(1);
+}
+input#index5:not(:checked) + input + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(16) {
+  -webkit-animation: scaleBack 0.3s 0.96s forwards;
+          animation: scaleBack 0.3s 0.96s forwards;
+  transform: scale(1);
+}
+
+input#index6:checked + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div {
+  transform: scale(1);
+}
+
+input#index6:not(:checked) + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div {
+  transform: scale(0);
+}
+
+input#index6:checked + input + input + input + input + input + input + input + div + div + div {
+  background-position: -13200px 0;
+}
+
+input#index6:checked + input + input + input + input + input + input + input + div + div + div + div {
+  background-position: -6000px 0;
+}
+
+input#index6:checked + input + input + input + input + input + input + input + div {
+  right: 11700px;
+}
+
+/* ----------------------------------
+
+Animation chains
+Q5
+------------------------------------- */
+input#index6:checked + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(1) {
+  -webkit-animation: scale 1s 2s forwards;
+          animation: scale 1s 2s forwards;
+  transform: scale(0);
+}
+input#index6:checked + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(2) {
+  -webkit-animation: scale 1s 2.1s forwards;
+          animation: scale 1s 2.1s forwards;
+  transform: scale(0);
+}
+input#index6:checked + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+  -webkit-animation: scale 1s 2.2s forwards;
+          animation: scale 1s 2.2s forwards;
+  transform: scale(0);
+}
+input#index6:checked + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
+  -webkit-animation: scale 1s 2.3s forwards;
+          animation: scale 1s 2.3s forwards;
+  transform: scale(0);
+}
+input#index6:checked + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__select {
+  -webkit-animation: scale 1s 2.4s forwards;
+          animation: scale 1s 2.4s forwards;
+  transform: scale(0);
+}
+input#index6:checked + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(1) {
+  -webkit-animation: scale 1s 2.06s forwards;
+          animation: scale 1s 2.06s forwards;
+  transform: scale(0);
+}
+input#index6:checked + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(2) {
+  -webkit-animation: scale 1s 2.12s forwards;
+          animation: scale 1s 2.12s forwards;
+  transform: scale(0);
+}
+input#index6:checked + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(3) {
+  -webkit-animation: scale 1s 2.18s forwards;
+          animation: scale 1s 2.18s forwards;
+  transform: scale(0);
+}
+input#index6:checked + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(4) {
+  -webkit-animation: scale 1s 2.24s forwards;
+          animation: scale 1s 2.24s forwards;
+  transform: scale(0);
+}
+input#index6:checked + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(5) {
+  -webkit-animation: scale 1s 2.3s forwards;
+          animation: scale 1s 2.3s forwards;
+  transform: scale(0);
+}
+input#index6:checked + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(6) {
+  -webkit-animation: scale 1s 2.36s forwards;
+          animation: scale 1s 2.36s forwards;
+  transform: scale(0);
+}
+input#index6:checked + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(7) {
+  -webkit-animation: scale 1s 2.42s forwards;
+          animation: scale 1s 2.42s forwards;
+  transform: scale(0);
+}
+input#index6:checked + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(8) {
+  -webkit-animation: scale 1s 2.48s forwards;
+          animation: scale 1s 2.48s forwards;
+  transform: scale(0);
+}
+input#index6:checked + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(9) {
+  -webkit-animation: scale 1s 2.54s forwards;
+          animation: scale 1s 2.54s forwards;
+  transform: scale(0);
+}
+input#index6:checked + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(10) {
+  -webkit-animation: scale 1s 2.6s forwards;
+          animation: scale 1s 2.6s forwards;
+  transform: scale(0);
+}
+input#index6:checked + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(11) {
+  -webkit-animation: scale 1s 2.66s forwards;
+          animation: scale 1s 2.66s forwards;
+  transform: scale(0);
+}
+input#index6:checked + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(12) {
+  -webkit-animation: scale 1s 2.72s forwards;
+          animation: scale 1s 2.72s forwards;
+  transform: scale(0);
+}
+input#index6:checked + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(13) {
+  -webkit-animation: scale 1s 2.78s forwards;
+          animation: scale 1s 2.78s forwards;
+  transform: scale(0);
+}
+input#index6:checked + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(14) {
+  -webkit-animation: scale 1s 2.84s forwards;
+          animation: scale 1s 2.84s forwards;
+  transform: scale(0);
+}
+input#index6:checked + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(15) {
+  -webkit-animation: scale 1s 2.9s forwards;
+          animation: scale 1s 2.9s forwards;
+  transform: scale(0);
+}
+input#index6:checked + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(16) {
+  -webkit-animation: scale 1s 2.96s forwards;
+          animation: scale 1s 2.96s forwards;
+  transform: scale(0);
+}
+
+input#index6:not(:checked) + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(1) {
+  -webkit-animation: scaleBack 0.3s 0s forwards;
+          animation: scaleBack 0.3s 0s forwards;
+  transform: scale(1);
+}
+input#index6:not(:checked) + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(2) {
+  -webkit-animation: scaleBack 0.3s 0.1s forwards;
+          animation: scaleBack 0.3s 0.1s forwards;
+  transform: scale(1);
+}
+input#index6:not(:checked) + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.2s forwards;
+          animation: scaleBack 0.3s 0.2s forwards;
+  transform: scale(1);
+}
+input#index6:not(:checked) + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__select {
+  -webkit-animation: scaleBack 0.3s 0.4s forwards;
+          animation: scaleBack 0.3s 0.4s forwards;
+  transform: scale(1);
+}
+input#index6:not(:checked) + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
+  -webkit-animation: scaleBack 0.3s 0.3s forwards;
+          animation: scaleBack 0.3s 0.3s forwards;
+  transform: scale(1);
+}
+input#index6:not(:checked) + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(1) {
+  -webkit-animation: scaleBack 0.3s 0.06s forwards;
+          animation: scaleBack 0.3s 0.06s forwards;
+  transform: scale(1);
+}
+input#index6:not(:checked) + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(2) {
+  -webkit-animation: scaleBack 0.3s 0.12s forwards;
+          animation: scaleBack 0.3s 0.12s forwards;
+  transform: scale(1);
+}
+input#index6:not(:checked) + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.18s forwards;
+          animation: scaleBack 0.3s 0.18s forwards;
+  transform: scale(1);
+}
+input#index6:not(:checked) + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(4) {
+  -webkit-animation: scaleBack 0.3s 0.24s forwards;
+          animation: scaleBack 0.3s 0.24s forwards;
+  transform: scale(1);
+}
+input#index6:not(:checked) + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(5) {
+  -webkit-animation: scaleBack 0.3s 0.3s forwards;
+          animation: scaleBack 0.3s 0.3s forwards;
+  transform: scale(1);
+}
+input#index6:not(:checked) + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(6) {
+  -webkit-animation: scaleBack 0.3s 0.36s forwards;
+          animation: scaleBack 0.3s 0.36s forwards;
+  transform: scale(1);
+}
+input#index6:not(:checked) + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(7) {
+  -webkit-animation: scaleBack 0.3s 0.42s forwards;
+          animation: scaleBack 0.3s 0.42s forwards;
+  transform: scale(1);
+}
+input#index6:not(:checked) + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(8) {
+  -webkit-animation: scaleBack 0.3s 0.48s forwards;
+          animation: scaleBack 0.3s 0.48s forwards;
+  transform: scale(1);
+}
+input#index6:not(:checked) + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(9) {
+  -webkit-animation: scaleBack 0.3s 0.54s forwards;
+          animation: scaleBack 0.3s 0.54s forwards;
+  transform: scale(1);
+}
+input#index6:not(:checked) + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(10) {
+  -webkit-animation: scaleBack 0.3s 0.6s forwards;
+          animation: scaleBack 0.3s 0.6s forwards;
+  transform: scale(1);
+}
+input#index6:not(:checked) + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(11) {
+  -webkit-animation: scaleBack 0.3s 0.66s forwards;
+          animation: scaleBack 0.3s 0.66s forwards;
+  transform: scale(1);
+}
+input#index6:not(:checked) + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(12) {
+  -webkit-animation: scaleBack 0.3s 0.72s forwards;
+          animation: scaleBack 0.3s 0.72s forwards;
+  transform: scale(1);
+}
+input#index6:not(:checked) + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(13) {
+  -webkit-animation: scaleBack 0.3s 0.78s forwards;
+          animation: scaleBack 0.3s 0.78s forwards;
+  transform: scale(1);
+}
+input#index6:not(:checked) + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(14) {
+  -webkit-animation: scaleBack 0.3s 0.84s forwards;
+          animation: scaleBack 0.3s 0.84s forwards;
+  transform: scale(1);
+}
+input#index6:not(:checked) + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(15) {
+  -webkit-animation: scaleBack 0.3s 0.9s forwards;
+          animation: scaleBack 0.3s 0.9s forwards;
+  transform: scale(1);
+}
+input#index6:not(:checked) + input + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(16) {
+  -webkit-animation: scaleBack 0.3s 0.96s forwards;
+          animation: scaleBack 0.3s 0.96s forwards;
+  transform: scale(1);
+}
+
+input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div {
+  transform: scale(1);
+}
+
+input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div {
+  transform: scale(0);
+}
+
+input#index7:checked + input + input + input + input + input + input + div + div + div {
+  background-position: -15400px 0;
+}
+
+input#index7:checked + input + input + input + input + input + input + div + div + div + div {
+  background-position: -7000px 0;
+}
+
+input#index7:checked + input + input + input + input + input + input + div {
+  right: 13600px;
+}
+
+/* ----------------------------------
+
+Animation chains
+Q6
+------------------------------------- */
+input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(1) {
+  -webkit-animation: scale 1s 2s forwards;
+          animation: scale 1s 2s forwards;
+  transform: scale(0);
+}
+input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(2) {
+  -webkit-animation: scale 1s 2.1s forwards;
+          animation: scale 1s 2.1s forwards;
+  transform: scale(0);
+}
+input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+  -webkit-animation: scale 1s 2.2s forwards;
+          animation: scale 1s 2.2s forwards;
+  transform: scale(0);
+}
+input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
+  -webkit-animation: scale 1s 2.3s forwards;
+          animation: scale 1s 2.3s forwards;
+  transform: scale(0);
+}
+input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__select {
+  -webkit-animation: scale 1s 2.4s forwards;
+          animation: scale 1s 2.4s forwards;
+  transform: scale(0);
+}
+input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(1) {
+  -webkit-animation: scale 1s 2.06s forwards;
+          animation: scale 1s 2.06s forwards;
+  transform: scale(0);
+}
+input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(2) {
+  -webkit-animation: scale 1s 2.12s forwards;
+          animation: scale 1s 2.12s forwards;
+  transform: scale(0);
+}
+input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(3) {
+  -webkit-animation: scale 1s 2.18s forwards;
+          animation: scale 1s 2.18s forwards;
+  transform: scale(0);
+}
+input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab.intro_hab__large span:nth-of-type(4) {
+  -webkit-animation: scale 1s 2.24s forwards;
+          animation: scale 1s 2.24s forwards;
+  transform: scale(0);
+}
+input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(5) {
+  -webkit-animation: scale 1s 2.3s forwards;
+          animation: scale 1s 2.3s forwards;
+  transform: scale(0);
+}
+input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(6) {
+  -webkit-animation: scale 1s 2.36s forwards;
+          animation: scale 1s 2.36s forwards;
+  transform: scale(0);
+}
+input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(7) {
+  -webkit-animation: scale 1s 2.42s forwards;
+          animation: scale 1s 2.42s forwards;
+  transform: scale(0);
+}
+input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(8) {
+  -webkit-animation: scale 1s 2.48s forwards;
+          animation: scale 1s 2.48s forwards;
+  transform: scale(0);
+}
+input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(9) {
+  -webkit-animation: scale 1s 2.54s forwards;
+          animation: scale 1s 2.54s forwards;
+  transform: scale(0);
+}
+input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(10) {
+  -webkit-animation: scale 1s 2.6s forwards;
+          animation: scale 1s 2.6s forwards;
+  transform: scale(0);
+}
+input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(11) {
+  -webkit-animation: scale 1s 2.66s forwards;
+          animation: scale 1s 2.66s forwards;
+  transform: scale(0);
+}
+input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(12) {
+  -webkit-animation: scale 1s 2.72s forwards;
+          animation: scale 1s 2.72s forwards;
+  transform: scale(0);
+}
+input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(13) {
+  -webkit-animation: scale 1s 2.78s forwards;
+          animation: scale 1s 2.78s forwards;
+  transform: scale(0);
+}
+input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(14) {
+  -webkit-animation: scale 1s 2.84s forwards;
+          animation: scale 1s 2.84s forwards;
+  transform: scale(0);
+}
+input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(15) {
+  -webkit-animation: scale 1s 2.9s forwards;
+          animation: scale 1s 2.9s forwards;
+  transform: scale(0);
+}
+input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(16) {
+  -webkit-animation: scale 1s 2.96s forwards;
+          animation: scale 1s 2.96s forwards;
+  transform: scale(0);
+}
+
+input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(1) {
+  -webkit-animation: scaleBack 0.3s 0s forwards;
+          animation: scaleBack 0.3s 0s forwards;
+  transform: scale(1);
+}
+input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(2) {
+  -webkit-animation: scaleBack 0.3s 0.1s forwards;
+          animation: scaleBack 0.3s 0.1s forwards;
+  transform: scale(1);
+}
+input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.2s forwards;
+          animation: scaleBack 0.3s 0.2s forwards;
+  transform: scale(1);
+}
+input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__select {
+  -webkit-animation: scaleBack 0.3s 0.4s forwards;
+          animation: scaleBack 0.3s 0.4s forwards;
+  transform: scale(1);
+}
+input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
+  -webkit-animation: scaleBack 0.3s 0.3s forwards;
+          animation: scaleBack 0.3s 0.3s forwards;
+  transform: scale(1);
+}
+input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(1) {
+  -webkit-animation: scaleBack 0.3s 0.06s forwards;
+          animation: scaleBack 0.3s 0.06s forwards;
+  transform: scale(1);
+}
+input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(2) {
+  -webkit-animation: scaleBack 0.3s 0.12s forwards;
+          animation: scaleBack 0.3s 0.12s forwards;
+  transform: scale(1);
+}
+input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.18s forwards;
+          animation: scaleBack 0.3s 0.18s forwards;
+  transform: scale(1);
+}
+input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(4) {
+  -webkit-animation: scaleBack 0.3s 0.24s forwards;
+          animation: scaleBack 0.3s 0.24s forwards;
+  transform: scale(1);
+}
+input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(5) {
+  -webkit-animation: scaleBack 0.3s 0.3s forwards;
+          animation: scaleBack 0.3s 0.3s forwards;
+  transform: scale(1);
+}
+input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(6) {
+  -webkit-animation: scaleBack 0.3s 0.36s forwards;
+          animation: scaleBack 0.3s 0.36s forwards;
+  transform: scale(1);
+}
+input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(7) {
+  -webkit-animation: scaleBack 0.3s 0.42s forwards;
+          animation: scaleBack 0.3s 0.42s forwards;
+  transform: scale(1);
+}
+input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(8) {
+  -webkit-animation: scaleBack 0.3s 0.48s forwards;
+          animation: scaleBack 0.3s 0.48s forwards;
+  transform: scale(1);
+}
+input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(9) {
+  -webkit-animation: scaleBack 0.3s 0.54s forwards;
+          animation: scaleBack 0.3s 0.54s forwards;
+  transform: scale(1);
+}
+input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(10) {
+  -webkit-animation: scaleBack 0.3s 0.6s forwards;
+          animation: scaleBack 0.3s 0.6s forwards;
+  transform: scale(1);
+}
+input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(11) {
+  -webkit-animation: scaleBack 0.3s 0.66s forwards;
+          animation: scaleBack 0.3s 0.66s forwards;
+  transform: scale(1);
+}
+input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(12) {
+  -webkit-animation: scaleBack 0.3s 0.72s forwards;
+          animation: scaleBack 0.3s 0.72s forwards;
+  transform: scale(1);
+}
+input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(13) {
+  -webkit-animation: scaleBack 0.3s 0.78s forwards;
+          animation: scaleBack 0.3s 0.78s forwards;
+  transform: scale(1);
+}
+input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(14) {
+  -webkit-animation: scaleBack 0.3s 0.84s forwards;
+          animation: scaleBack 0.3s 0.84s forwards;
+  transform: scale(1);
+}
+input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(15) {
+  -webkit-animation: scaleBack 0.3s 0.9s forwards;
+          animation: scaleBack 0.3s 0.9s forwards;
+  transform: scale(1);
+}
+input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(16) {
+  -webkit-animation: scaleBack 0.3s 0.96s forwards;
+          animation: scaleBack 0.3s 0.96s forwards;
+  transform: scale(1);
+}
+
+input#index8:checked + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div {
+  transform: scale(1);
+}
+
+input#index8:not(:checked) + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div {
+  transform: scale(0);
+}
+
+input#index8:checked + input + input + input + input + input + div + div + div {
+  background-position: -17600px 0;
+}
+
+input#index8:checked + input + input + input + input + input + div + div + div + div {
+  background-position: -8000px 0;
+}
+
+input#index8:checked + input + input + input + input + input + div {
+  right: 15500px;
+}
+
+/* ----------------------------------
+
+Animation chains
+Q7
+------------------------------------- */
+input#index8:checked + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(1) {
+  -webkit-animation: scale 1s 2s forwards;
+          animation: scale 1s 2s forwards;
+  transform: scale(0);
+}
+input#index8:checked + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(2) {
+  -webkit-animation: scale 1s 2.1s forwards;
+          animation: scale 1s 2.1s forwards;
+  transform: scale(0);
+}
+input#index8:checked + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+  -webkit-animation: scale 1s 2.2s forwards;
+          animation: scale 1s 2.2s forwards;
+  transform: scale(0);
+}
+input#index8:checked + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
+  -webkit-animation: scale 1s 2.3s forwards;
+          animation: scale 1s 2.3s forwards;
+  transform: scale(0);
+}
+input#index8:checked + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__select {
+  -webkit-animation: scale 1s 2.4s forwards;
+          animation: scale 1s 2.4s forwards;
+  transform: scale(0);
+}
+input#index8:checked + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(1) {
+  -webkit-animation: scale 1s 2.06s forwards;
+          animation: scale 1s 2.06s forwards;
+  transform: scale(0);
+}
+input#index8:checked + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(2) {
+  -webkit-animation: scale 1s 2.12s forwards;
+          animation: scale 1s 2.12s forwards;
+  transform: scale(0);
+}
+input#index8:checked + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(3) {
+  -webkit-animation: scale 1s 2.18s forwards;
+          animation: scale 1s 2.18s forwards;
+  transform: scale(0);
+}
+input#index8:checked + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(4) {
+  -webkit-animation: scale 1s 2.24s forwards;
+          animation: scale 1s 2.24s forwards;
+  transform: scale(0);
+}
+input#index8:checked + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(5) {
+  -webkit-animation: scale 1s 2.3s forwards;
+          animation: scale 1s 2.3s forwards;
+  transform: scale(0);
+}
+input#index8:checked + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(6) {
+  -webkit-animation: scale 1s 2.36s forwards;
+          animation: scale 1s 2.36s forwards;
+  transform: scale(0);
+}
+input#index8:checked + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(7) {
+  -webkit-animation: scale 1s 2.42s forwards;
+          animation: scale 1s 2.42s forwards;
+  transform: scale(0);
+}
+input#index8:checked + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(8) {
+  -webkit-animation: scale 1s 2.48s forwards;
+          animation: scale 1s 2.48s forwards;
+  transform: scale(0);
+}
+input#index8:checked + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(9) {
+  -webkit-animation: scale 1s 2.54s forwards;
+          animation: scale 1s 2.54s forwards;
+  transform: scale(0);
+}
+input#index8:checked + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(10) {
+  -webkit-animation: scale 1s 2.6s forwards;
+          animation: scale 1s 2.6s forwards;
+  transform: scale(0);
+}
+input#index8:checked + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(11) {
+  -webkit-animation: scale 1s 2.66s forwards;
+          animation: scale 1s 2.66s forwards;
+  transform: scale(0);
+}
+input#index8:checked + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(12) {
+  -webkit-animation: scale 1s 2.72s forwards;
+          animation: scale 1s 2.72s forwards;
+  transform: scale(0);
+}
+input#index8:checked + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(13) {
+  -webkit-animation: scale 1s 2.78s forwards;
+          animation: scale 1s 2.78s forwards;
+  transform: scale(0);
+}
+input#index8:checked + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(14) {
+  -webkit-animation: scale 1s 2.84s forwards;
+          animation: scale 1s 2.84s forwards;
+  transform: scale(0);
+}
+input#index8:checked + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(15) {
+  -webkit-animation: scale 1s 2.9s forwards;
+          animation: scale 1s 2.9s forwards;
+  transform: scale(0);
+}
+input#index8:checked + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(16) {
+  -webkit-animation: scale 1s 2.96s forwards;
+          animation: scale 1s 2.96s forwards;
+  transform: scale(0);
+}
+
+input#index8:not(:checked) + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(1) {
+  -webkit-animation: scaleBack 0.3s 0s forwards;
+          animation: scaleBack 0.3s 0s forwards;
+  transform: scale(1);
+}
+input#index8:not(:checked) + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(2) {
+  -webkit-animation: scaleBack 0.3s 0.1s forwards;
+          animation: scaleBack 0.3s 0.1s forwards;
+  transform: scale(1);
+}
+input#index8:not(:checked) + input + input + input + input + input div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.2s forwards;
+          animation: scaleBack 0.3s 0.2s forwards;
+  transform: scale(1);
+}
+input#index8:not(:checked) + input + input + input + input + input div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__select {
+  -webkit-animation: scaleBack 0.3s 0.4s forwards;
+          animation: scaleBack 0.3s 0.4s forwards;
+  transform: scale(1);
+}
+input#index8:not(:checked) + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
+  -webkit-animation: scaleBack 0.3s 0.3s forwards;
+          animation: scaleBack 0.3s 0.3s forwards;
+  transform: scale(1);
+}
+input#index8:not(:checked) + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(1) {
+  -webkit-animation: scaleBack 0.3s 0.06s forwards;
+          animation: scaleBack 0.3s 0.06s forwards;
+  transform: scale(1);
+}
+input#index8:not(:checked) + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(2) {
+  -webkit-animation: scaleBack 0.3s 0.12s forwards;
+          animation: scaleBack 0.3s 0.12s forwards;
+  transform: scale(1);
+}
+input#index8:not(:checked) + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.18s forwards;
+          animation: scaleBack 0.3s 0.18s forwards;
+  transform: scale(1);
+}
+input#index8:not(:checked) + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(4) {
+  -webkit-animation: scaleBack 0.3s 0.24s forwards;
+          animation: scaleBack 0.3s 0.24s forwards;
+  transform: scale(1);
+}
+input#index8:not(:checked) + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(5) {
+  -webkit-animation: scaleBack 0.3s 0.3s forwards;
+          animation: scaleBack 0.3s 0.3s forwards;
+  transform: scale(1);
+}
+input#index8:not(:checked) + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(6) {
+  -webkit-animation: scaleBack 0.3s 0.36s forwards;
+          animation: scaleBack 0.3s 0.36s forwards;
+  transform: scale(1);
+}
+input#index8:not(:checked) + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(7) {
+  -webkit-animation: scaleBack 0.3s 0.42s forwards;
+          animation: scaleBack 0.3s 0.42s forwards;
+  transform: scale(1);
+}
+input#index8:not(:checked) + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(8) {
+  -webkit-animation: scaleBack 0.3s 0.48s forwards;
+          animation: scaleBack 0.3s 0.48s forwards;
+  transform: scale(1);
+}
+input#index8:not(:checked) + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(9) {
+  -webkit-animation: scaleBack 0.3s 0.54s forwards;
+          animation: scaleBack 0.3s 0.54s forwards;
+  transform: scale(1);
+}
+input#index8:not(:checked) + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(10) {
+  -webkit-animation: scaleBack 0.3s 0.6s forwards;
+          animation: scaleBack 0.3s 0.6s forwards;
+  transform: scale(1);
+}
+input#index8:not(:checked) + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(11) {
+  -webkit-animation: scaleBack 0.3s 0.66s forwards;
+          animation: scaleBack 0.3s 0.66s forwards;
+  transform: scale(1);
+}
+input#index8:not(:checked) + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(12) {
+  -webkit-animation: scaleBack 0.3s 0.72s forwards;
+          animation: scaleBack 0.3s 0.72s forwards;
+  transform: scale(1);
+}
+input#index8:not(:checked) + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(13) {
+  -webkit-animation: scaleBack 0.3s 0.78s forwards;
+          animation: scaleBack 0.3s 0.78s forwards;
+  transform: scale(1);
+}
+input#index8:not(:checked) + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(14) {
+  -webkit-animation: scaleBack 0.3s 0.84s forwards;
+          animation: scaleBack 0.3s 0.84s forwards;
+  transform: scale(1);
+}
+input#index8:not(:checked) + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(15) {
+  -webkit-animation: scaleBack 0.3s 0.9s forwards;
+          animation: scaleBack 0.3s 0.9s forwards;
+  transform: scale(1);
+}
+input#index8:not(:checked) + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(16) {
+  -webkit-animation: scaleBack 0.3s 0.96s forwards;
+          animation: scaleBack 0.3s 0.96s forwards;
+  transform: scale(1);
+}
+
+input#index9:checked + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div +div {
+  transform: scale(1);
+}
+
+input#index9:not(:checked) + input + input + input + input  + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  transform: scale(0);
+}
+
+input#index9:checked + input + input + input + input  + div + div + div {
+  background-position: -19800px 0;
+}
+
+input#index9:checked + input + input + input + input + div + div + div + div {
+  background-position: -9000px 0;
+}
+
+input#index9:checked + div {
+  right: 17400px;
+}
+
+/* ----------------------------------
+
+Animation chains
+Q8
+------------------------------------- */
+input#index9:checked + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(1) {
+  -webkit-animation: scale 1s 2s forwards;
+          animation: scale 1s 2s forwards;
+  transform: scale(0);
+}
+input#index9:checked + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(2) {
+  -webkit-animation: scale 1s 2.1s forwards;
+          animation: scale 1s 2.1s forwards;
+  transform: scale(0);
+}
+input#index9:checked + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+  -webkit-animation: scale 1s 2.2s forwards;
+          animation: scale 1s 2.2s forwards;
+  transform: scale(0);
+}
+input#index9:checked + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
+  -webkit-animation: scale 1s 2.3s forwards;
+          animation: scale 1s 2.3s forwards;
+  transform: scale(0);
+}
+input#index9:checked + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__select {
+  -webkit-animation: scale 1s 2.4s forwards;
+          animation: scale 1s 2.4s forwards;
+  transform: scale(0);
+}
+input#index9:checked + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(1) {
+  -webkit-animation: scale 1s 2.06s forwards;
+          animation: scale 1s 2.06s forwards;
+  transform: scale(0);
+}
+input#index9:checked + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(2) {
+  -webkit-animation: scale 1s 2.12s forwards;
+          animation: scale 1s 2.12s forwards;
+  transform: scale(0);
+}
+input#index9:checked + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(3) {
+  -webkit-animation: scale 1s 2.18s forwards;
+          animation: scale 1s 2.18s forwards;
+  transform: scale(0);
+}
+input#index9:checked + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(4) {
+  -webkit-animation: scale 1s 2.24s forwards;
+          animation: scale 1s 2.24s forwards;
+  transform: scale(0);
+}
+input#index9:checked + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(5) {
+  -webkit-animation: scale 1s 2.3s forwards;
+          animation: scale 1s 2.3s forwards;
+  transform: scale(0);
+}
+input#index9:checked + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(6) {
+  -webkit-animation: scale 1s 2.36s forwards;
+          animation: scale 1s 2.36s forwards;
+  transform: scale(0);
+}
+input#index9:checked + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(7) {
+  -webkit-animation: scale 1s 2.42s forwards;
+          animation: scale 1s 2.42s forwards;
+  transform: scale(0);
+}
+input#index9:checked + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(8) {
+  -webkit-animation: scale 1s 2.48s forwards;
+          animation: scale 1s 2.48s forwards;
+  transform: scale(0);
+}
+input#index9:checked + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(9) {
+  -webkit-animation: scale 1s 2.54s forwards;
+          animation: scale 1s 2.54s forwards;
+  transform: scale(0);
+}
+input#index9:checked + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(10) {
+  -webkit-animation: scale 1s 2.6s forwards;
+          animation: scale 1s 2.6s forwards;
+  transform: scale(0);
+}
+input#index9:checked + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(11) {
+  -webkit-animation: scale 1s 2.66s forwards;
+          animation: scale 1s 2.66s forwards;
+  transform: scale(0);
+}
+input#index9:checked + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(12) {
+  -webkit-animation: scale 1s 2.72s forwards;
+          animation: scale 1s 2.72s forwards;
+  transform: scale(0);
+}
+input#index9:checked + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(13) {
+  -webkit-animation: scale 1s 2.78s forwards;
+          animation: scale 1s 2.78s forwards;
+  transform: scale(0);
+}
+input#index9:checked + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(14) {
+  -webkit-animation: scale 1s 2.84s forwards;
+          animation: scale 1s 2.84s forwards;
+  transform: scale(0);
+}
+input#index9:checked + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(15) {
+  -webkit-animation: scale 1s 2.9s forwards;
+          animation: scale 1s 2.9s forwards;
+  transform: scale(0);
+}
+input#index9:checked + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(16) {
+  -webkit-animation: scale 1s 2.96s forwards;
+          animation: scale 1s 2.96s forwards;
+  transform: scale(0);
+}
+
+input#index9:not(:checked) + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(1) {
+  -webkit-animation: scaleBack 0.3s 0s forwards;
+          animation: scaleBack 0.3s 0s forwards;
+  transform: scale(1);
+}
+input#index9:not(:checked) + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(2) {
+  -webkit-animation: scaleBack 0.3s 0.1s forwards;
+          animation: scaleBack 0.3s 0.1s forwards;
+  transform: scale(1);
+}
+input#index9:not(:checked) + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.2s forwards;
+          animation: scaleBack 0.3s 0.2s forwards;
+  transform: scale(1);
+}
+input#index9:not(:checked) + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__select {
+  -webkit-animation: scaleBack 0.3s 0.4s forwards;
+          animation: scaleBack 0.3s 0.4s forwards;
+  transform: scale(1);
+}
+input#index9:not(:checked) + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
+  -webkit-animation: scaleBack 0.3s 0.3s forwards;
+          animation: scaleBack 0.3s 0.3s forwards;
+  transform: scale(1);
+}
+input#index9:not(:checked) + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(1) {
+  -webkit-animation: scaleBack 0.3s 0.06s forwards;
+          animation: scaleBack 0.3s 0.06s forwards;
+  transform: scale(1);
+}
+input#index9:not(:checked) + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(2) {
+  -webkit-animation: scaleBack 0.3s 0.12s forwards;
+          animation: scaleBack 0.3s 0.12s forwards;
+  transform: scale(1);
+}
+input#index9:not(:checked) + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.18s forwards;
+          animation: scaleBack 0.3s 0.18s forwards;
+  transform: scale(1);
+}
+input#index9:not(:checked) + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(4) {
+  -webkit-animation: scaleBack 0.3s 0.24s forwards;
+          animation: scaleBack 0.3s 0.24s forwards;
+  transform: scale(1);
+}
+input#index9:not(:checked) + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(5) {
+  -webkit-animation: scaleBack 0.3s 0.3s forwards;
+          animation: scaleBack 0.3s 0.3s forwards;
+  transform: scale(1);
+}
+input#index9:not(:checked) + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(6) {
+  -webkit-animation: scaleBack 0.3s 0.36s forwards;
+          animation: scaleBack 0.3s 0.36s forwards;
+  transform: scale(1);
+}
+input#index9:not(:checked) + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(7) {
+  -webkit-animation: scaleBack 0.3s 0.42s forwards;
+          animation: scaleBack 0.3s 0.42s forwards;
+  transform: scale(1);
+}
+input#index9:not(:checked) + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(8) {
+  -webkit-animation: scaleBack 0.3s 0.48s forwards;
+          animation: scaleBack 0.3s 0.48s forwards;
+  transform: scale(1);
+}
+input#index9:not(:checked) + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(9) {
+  -webkit-animation: scaleBack 0.3s 0.54s forwards;
+          animation: scaleBack 0.3s 0.54s forwards;
+  transform: scale(1);
+}
+input#index9:not(:checked) + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(10) {
+  -webkit-animation: scaleBack 0.3s 0.6s forwards;
+          animation: scaleBack 0.3s 0.6s forwards;
+  transform: scale(1);
+}
+input#index9:not(:checked) + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(11) {
+  -webkit-animation: scaleBack 0.3s 0.66s forwards;
+          animation: scaleBack 0.3s 0.66s forwards;
+  transform: scale(1);
+}
+input#index9:not(:checked) + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(12) {
+  -webkit-animation: scaleBack 0.3s 0.72s forwards;
+          animation: scaleBack 0.3s 0.72s forwards;
+  transform: scale(1);
+}
+input#index9:not(:checked) + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(13) {
+  -webkit-animation: scaleBack 0.3s 0.78s forwards;
+          animation: scaleBack 0.3s 0.78s forwards;
+  transform: scale(1);
+}
+input#index9:not(:checked) + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(14) {
+  -webkit-animation: scaleBack 0.3s 0.84s forwards;
+          animation: scaleBack 0.3s 0.84s forwards;
+  transform: scale(1);
+}
+input#index9:not(:checked) + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(15) {
+  -webkit-animation: scaleBack 0.3s 0.9s forwards;
+          animation: scaleBack 0.3s 0.9s forwards;
+  transform: scale(1);
+}
+input#index9:not(:checked) + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(16) {
+  -webkit-animation: scaleBack 0.3s 0.96s forwards;
+          animation: scaleBack 0.3s 0.96s forwards;
+  transform: scale(1);
+}
+
+input#index10:checked + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div  {
+  transform: scale(1);
+}
+
+input#index10:not(:checked) + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  transform: scale(0);
+}
+
+input#index10:checked + input + input + input + div + div + div {
+  background-position: -22200px 0;
+}
+
+input#index10:checked + div + div + div + div {
+  background-position: -10000px 0;
+}
+
+input#index10:checked + div {
+  right: 19300px;
+}
+/* ----------------------------------
+
+Animation chains
+Q9
+------------------------------------- */
+input#index10:checked + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(1) {
+  -webkit-animation: scale 1s 2s forwards;
+          animation: scale 1s 2s forwards;
+  transform: scale(0);
+}
+input#index10:checked + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(2) {
+  -webkit-animation: scale 1s 2.1s forwards;
+          animation: scale 1s 2.1s forwards;
+  transform: scale(0);
+}
+input#index10:checked + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+  -webkit-animation: scale 1s 2.2s forwards;
+          animation: scale 1s 2.2s forwards;
+  transform: scale(0);
+}
+input#index10:checked + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
+  -webkit-animation: scale 1s 2.3s forwards;
+          animation: scale 1s 2.3s forwards;
+  transform: scale(0);
+}
+input#index10:checked + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__select {
+  -webkit-animation: scale 1s 2.4s forwards;
+          animation: scale 1s 2.4s forwards;
+  transform: scale(0);
+}
+input#index10:checked + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(1) {
+  -webkit-animation: scale 1s 2.06s forwards;
+          animation: scale 1s 2.06s forwards;
+  transform: scale(0);
+}
+input#index10:checked + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(2) {
+  -webkit-animation: scale 1s 2.12s forwards;
+          animation: scale 1s 2.12s forwards;
+  transform: scale(0);
+}
+input#index10:checked + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(3) {
+  -webkit-animation: scale 1s 2.18s forwards;
+          animation: scale 1s 2.18s forwards;
+  transform: scale(0);
+}
+input#index10:checked + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(4) {
+  -webkit-animation: scale 1s 2.24s forwards;
+          animation: scale 1s 2.24s forwards;
+  transform: scale(0);
+}
+input#index10:checked + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(5) {
+  -webkit-animation: scale 1s 2.3s forwards;
+          animation: scale 1s 2.3s forwards;
+  transform: scale(0);
+}
+input#index10:checked + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(6) {
+  -webkit-animation: scale 1s 2.36s forwards;
+          animation: scale 1s 2.36s forwards;
+  transform: scale(0);
+}
+input#index10:checked + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(7) {
+  -webkit-animation: scale 1s 2.42s forwards;
+          animation: scale 1s 2.42s forwards;
+  transform: scale(0);
+}
+input#index10:checked + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(8) {
+  -webkit-animation: scale 1s 2.48s forwards;
+          animation: scale 1s 2.48s forwards;
+  transform: scale(0);
+}
+input#index10:checked + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(9) {
+  -webkit-animation: scale 1s 2.54s forwards;
+          animation: scale 1s 2.54s forwards;
+  transform: scale(0);
+}
+input#index10:checked + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(10) {
+  -webkit-animation: scale 1s 2.6s forwards;
+          animation: scale 1s 2.6s forwards;
+  transform: scale(0);
+}
+input#index10:checked + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(11) {
+  -webkit-animation: scale 1s 2.66s forwards;
+          animation: scale 1s 2.66s forwards;
+  transform: scale(0);
+}
+input#index10:checked + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(12) {
+  -webkit-animation: scale 1s 2.72s forwards;
+          animation: scale 1s 2.72s forwards;
+  transform: scale(0);
+}
+input#index10:checked + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(13) {
+  -webkit-animation: scale 1s 2.78s forwards;
+          animation: scale 1s 2.78s forwards;
+  transform: scale(0);
+}
+input#index10:checked + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(14) {
+  -webkit-animation: scale 1s 2.84s forwards;
+          animation: scale 1s 2.84s forwards;
+  transform: scale(0);
+}
+input#index10:checked + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(15) {
+  -webkit-animation: scale 1s 2.9s forwards;
+          animation: scale 1s 2.9s forwards;
+  transform: scale(0);
+}
+input#index10:checked + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(16) {
+  -webkit-animation: scale 1s 2.96s forwards;
+          animation: scale 1s 2.96s forwards;
+  transform: scale(0);
+}
+
+input#index10:not(:checked) + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(1) {
+  -webkit-animation: scaleBack 0.3s 0s forwards;
+          animation: scaleBack 0.3s 0s forwards;
+  transform: scale(1);
+}
+input#index10:not(:checked) + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(2) {
+  -webkit-animation: scaleBack 0.3s 0.1s forwards;
+          animation: scaleBack 0.3s 0.1s forwards;
+  transform: scale(1);
+}
+input#index10:not(:checked) + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.2s forwards;
+          animation: scaleBack 0.3s 0.2s forwards;
+  transform: scale(1);
+}
+input#index10:not(:checked) + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__select {
+  -webkit-animation: scaleBack 0.3s 0.4s forwards;
+          animation: scaleBack 0.3s 0.4s forwards;
+  transform: scale(1);
+}
+input#index10:not(:checked) + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
+  -webkit-animation: scaleBack 0.3s 0.3s forwards;
+          animation: scaleBack 0.3s 0.3s forwards;
+  transform: scale(1);
+}
+input#index10:not(:checked) + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(1) {
+  -webkit-animation: scaleBack 0.3s 0.06s forwards;
+          animation: scaleBack 0.3s 0.06s forwards;
+  transform: scale(1);
+}
+input#index10:not(:checked) + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(2) {
+  -webkit-animation: scaleBack 0.3s 0.12s forwards;
+          animation: scaleBack 0.3s 0.12s forwards;
+  transform: scale(1);
+}
+input#index10:not(:checked) + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.18s forwards;
+          animation: scaleBack 0.3s 0.18s forwards;
+  transform: scale(1);
+}
+input#index10:not(:checked) + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(4) {
+  -webkit-animation: scaleBack 0.3s 0.24s forwards;
+          animation: scaleBack 0.3s 0.24s forwards;
+  transform: scale(1);
+}
+input#index10:not(:checked) + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(5) {
+  -webkit-animation: scaleBack 0.3s 0.3s forwards;
+          animation: scaleBack 0.3s 0.3s forwards;
+  transform: scale(1);
+}
+input#index10:not(:checked) + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(6) {
+  -webkit-animation: scaleBack 0.3s 0.36s forwards;
+          animation: scaleBack 0.3s 0.36s forwards;
+  transform: scale(1);
+}
+input#index10:not(:checked) + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(7) {
+  -webkit-animation: scaleBack 0.3s 0.42s forwards;
+          animation: scaleBack 0.3s 0.42s forwards;
+  transform: scale(1);
+}
+input#index10:not(:checked) + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(8) {
+  -webkit-animation: scaleBack 0.3s 0.48s forwards;
+          animation: scaleBack 0.3s 0.48s forwards;
+  transform: scale(1);
+}
+input#index10:not(:checked) + input + input + input  + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(9) {
+  -webkit-animation: scaleBack 0.3s 0.54s forwards;
+          animation: scaleBack 0.3s 0.54s forwards;
+  transform: scale(1);
+}
+input#index10:not(:checked) + input + input + input  + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(10) {
+  -webkit-animation: scaleBack 0.3s 0.6s forwards;
+          animation: scaleBack 0.3s 0.6s forwards;
+  transform: scale(1);
+}
+input#index10:not(:checked) + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(11) {
+  -webkit-animation: scaleBack 0.3s 0.66s forwards;
+          animation: scaleBack 0.3s 0.66s forwards;
+  transform: scale(1);
+}
+input#index10:not(:checked) + input + input + input  + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(12) {
+  -webkit-animation: scaleBack 0.3s 0.72s forwards;
+          animation: scaleBack 0.3s 0.72s forwards;
+  transform: scale(1);
+}
+input#index10:not(:checked) + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(13) {
+  -webkit-animation: scaleBack 0.3s 0.78s forwards;
+          animation: scaleBack 0.3s 0.78s forwards;
+  transform: scale(1);
+}
+input#index10:not(:checked) + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(14) {
+  -webkit-animation: scaleBack 0.3s 0.84s forwards;
+          animation: scaleBack 0.3s 0.84s forwards;
+  transform: scale(1);
+}
+input#index10:not(:checked) + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(15) {
+  -webkit-animation: scaleBack 0.3s 0.9s forwards;
+          animation: scaleBack 0.3s 0.9s forwards;
+  transform: scale(1);
+}
+input#index10:not(:checked) + input + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(16) {
+  -webkit-animation: scaleBack 0.3s 0.96s forwards;
+          animation: scaleBack 0.3s 0.96s forwards;
+  transform: scale(1);
+}
+
+input#index11:checked + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  transform: scale(1);
+}
+
+input#index11:not(:checked) + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  transform: scale(0);
+}
+
+input#index11:checked + input + input + div + div + div {
+  background-position: -24400px 0;
+}
+
+input#index11:checked + div + div + div + div {
+  background-position: -11000px 0;
+}
+
+input#index11:checked + div {
+  right: 21200px;
+}
+/* ----------------------------------
+
+Animation chains
+Q10
+------------------------------------- */
+input#index11:checked + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(1) {
+  -webkit-animation: scale 1s 2s forwards;
+          animation: scale 1s 2s forwards;
+  transform: scale(0);
+}
+input#index11:checked + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(2) {
+  -webkit-animation: scale 1s 2.1s forwards;
+          animation: scale 1s 2.1s forwards;
+  transform: scale(0);
+}
+input#index11:checked + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+  -webkit-animation: scale 1s 2.2s forwards;
+          animation: scale 1s 2.2s forwards;
+  transform: scale(0);
+}
+input#index11:checked + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
+  -webkit-animation: scale 1s 2.3s forwards;
+          animation: scale 1s 2.3s forwards;
+  transform: scale(0);
+}
+input#index11:checked + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__select {
+  -webkit-animation: scale 1s 2.4s forwards;
+          animation: scale 1s 2.4s forwards;
+  transform: scale(0);
+}
+input#index11:checked + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(1) {
+  -webkit-animation: scale 1s 2.06s forwards;
+          animation: scale 1s 2.06s forwards;
+  transform: scale(0);
+}
+input#index11:checked + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(2) {
+  -webkit-animation: scale 1s 2.12s forwards;
+          animation: scale 1s 2.12s forwards;
+  transform: scale(0);
+}
+input#index11:checked + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(3) {
+  -webkit-animation: scale 1s 2.18s forwards;
+          animation: scale 1s 2.18s forwards;
+  transform: scale(0);
+}
+input#index11:checked + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(4) {
+  -webkit-animation: scale 1s 2.24s forwards;
+          animation: scale 1s 2.24s forwards;
+  transform: scale(0);
+}
+input#index11:checked + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(5) {
+  -webkit-animation: scale 1s 2.3s forwards;
+          animation: scale 1s 2.3s forwards;
+  transform: scale(0);
+}
+input#index11:checked + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(6) {
+  -webkit-animation: scale 1s 2.36s forwards;
+          animation: scale 1s 2.36s forwards;
+  transform: scale(0);
+}
+input#index11:checked + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(7) {
+  -webkit-animation: scale 1s 2.42s forwards;
+          animation: scale 1s 2.42s forwards;
+  transform: scale(0);
+}
+input#index11:checked + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(8) {
+  -webkit-animation: scale 1s 2.48s forwards;
+          animation: scale 1s 2.48s forwards;
+  transform: scale(0);
+}
+input#index11:checked + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(9) {
+  -webkit-animation: scale 1s 2.54s forwards;
+          animation: scale 1s 2.54s forwards;
+  transform: scale(0);
+}
+input#index11:checked + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(10) {
+  -webkit-animation: scale 1s 2.6s forwards;
+          animation: scale 1s 2.6s forwards;
+  transform: scale(0);
+}
+input#index11:checked + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(11) {
+  -webkit-animation: scale 1s 2.66s forwards;
+          animation: scale 1s 2.66s forwards;
+  transform: scale(0);
+}
+input#index11:checked + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(12) {
+  -webkit-animation: scale 1s 2.72s forwards;
+          animation: scale 1s 2.72s forwards;
+  transform: scale(0);
+}
+input#index11:checked + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(13) {
+  -webkit-animation: scale 1s 2.78s forwards;
+          animation: scale 1s 2.78s forwards;
+  transform: scale(0);
+}
+input#index11:checked + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(14) {
+  -webkit-animation: scale 1s 2.84s forwards;
+          animation: scale 1s 2.84s forwards;
+  transform: scale(0);
+}
+input#index11:checked + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(15) {
+  -webkit-animation: scale 1s 2.9s forwards;
+          animation: scale 1s 2.9s forwards;
+  transform: scale(0);
+}
+input#index11:checked + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(16) {
+  -webkit-animation: scale 1s 2.96s forwards;
+          animation: scale 1s 2.96s forwards;
+  transform: scale(0);
+}
+
+input#index11:not(:checked) + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(1) {
+  -webkit-animation: scaleBack 0.3s 0s forwards;
+          animation: scaleBack 0.3s 0s forwards;
+  transform: scale(1);
+}
+input#index11:not(:checked) + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab label:nth-of-type(2) {
+  -webkit-animation: scaleBack 0.3s 0.1s forwards;
+          animation: scaleBack 0.3s 0.1s forwards;
+  transform: scale(1);
+}
+input#index11:not(:checked) + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.2s forwards;
+          animation: scaleBack 0.3s 0.2s forwards;
+  transform: scale(1);
+}
+input#index11:not(:checked) + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__select {
+  -webkit-animation: scaleBack 0.3s 0.4s forwards;
+          animation: scaleBack 0.3s 0.4s forwards;
+  transform: scale(1);
+}
+input#index11:not(:checked) + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
+  -webkit-animation: scaleBack 0.3s 0.3s forwards;
+          animation: scaleBack 0.3s 0.3s forwards;
+  transform: scale(1);
+}
+input#index11:not(:checked) + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(1) {
+  -webkit-animation: scaleBack 0.3s 0.06s forwards;
+          animation: scaleBack 0.3s 0.06s forwards;
+  transform: scale(1);
+}
+input#index11:not(:checked) + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(2) {
+  -webkit-animation: scaleBack 0.3s 0.12s forwards;
+          animation: scaleBack 0.3s 0.12s forwards;
+  transform: scale(1);
+}
+input#index11:not(:checked) + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.18s forwards;
+          animation: scaleBack 0.3s 0.18s forwards;
+  transform: scale(1);
+}
+input#index11:not(:checked) + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(4) {
+  -webkit-animation: scaleBack 0.3s 0.24s forwards;
+          animation: scaleBack 0.3s 0.24s forwards;
+  transform: scale(1);
+}
+input#index11:not(:checked) + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(5) {
+  -webkit-animation: scaleBack 0.3s 0.3s forwards;
+          animation: scaleBack 0.3s 0.3s forwards;
+  transform: scale(1);
+}
+input#index11:not(:checked) + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(6) {
+  -webkit-animation: scaleBack 0.3s 0.36s forwards;
+          animation: scaleBack 0.3s 0.36s forwards;
+  transform: scale(1);
+}
+input#index11:not(:checked) + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(7) {
+  -webkit-animation: scaleBack 0.3s 0.42s forwards;
+          animation: scaleBack 0.3s 0.42s forwards;
+  transform: scale(1);
+}
+input#index11:not(:checked) + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(8) {
+  -webkit-animation: scaleBack 0.3s 0.48s forwards;
+          animation: scaleBack 0.3s 0.48s forwards;
+  transform: scale(1);
+}
+input#index11:not(:checked) + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(9) {
+  -webkit-animation: scaleBack 0.3s 0.54s forwards;
+          animation: scaleBack 0.3s 0.54s forwards;
+  transform: scale(1);
+}
+input#index11:not(:checked) + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(10) {
+  -webkit-animation: scaleBack 0.3s 0.6s forwards;
+          animation: scaleBack 0.3s 0.6s forwards;
+  transform: scale(1);
+}
+input#index11:not(:checked) + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(11) {
+  -webkit-animation: scaleBack 0.3s 0.66s forwards;
+          animation: scaleBack 0.3s 0.66s forwards;
+  transform: scale(1);
+}
+input#index11:not(:checked) + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(12) {
+  -webkit-animation: scaleBack 0.3s 0.72s forwards;
+          animation: scaleBack 0.3s 0.72s forwards;
+  transform: scale(1);
+}
+input#index11:not(:checked) + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(13) {
+  -webkit-animation: scaleBack 0.3s 0.78s forwards;
+          animation: scaleBack 0.3s 0.78s forwards;
+  transform: scale(1);
+}
+input#index11:not(:checked) + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(14) {
+  -webkit-animation: scaleBack 0.3s 0.84s forwards;
+          animation: scaleBack 0.3s 0.84s forwards;
+  transform: scale(1);
+}
+input#index11:not(:checked) + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(15) {
+  -webkit-animation: scaleBack 0.3s 0.9s forwards;
+          animation: scaleBack 0.3s 0.9s forwards;
+  transform: scale(1);
+}
+input#index11:not(:checked) + input + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(16) {
+  -webkit-animation: scaleBack 0.3s 0.96s forwards;
+          animation: scaleBack 0.3s 0.96s forwards;
+  transform: scale(1);
+}
+
+input#index12:checked + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  transform: scale(1);
+}
+
+input#index12:not(:checked) + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  transform: scale(0);
+}
+
+input#index12:checked + div + div + div {
+  background-position: -26600px 0;
+}
+
+input#index12:checked + div + div + div + div {
+  background-position: -12000px 0;
+}
+
+input#index12:checked + div {
+  right: 23100px;
+}
+/* ----------------------------------
+
+Animation chains
+END
+------------------------------------- */
+input#index12:checked + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(1) {
+  -webkit-animation: scale 1s 2s forwards;
+          animation: scale 1s 2s forwards;
+  transform: scale(0);
+}
+input#index12:checked + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(2) {
+  -webkit-animation: scale 1s 2.1s forwards;
+          animation: scale 1s 2.1s forwards;
+  transform: scale(0);
+}
+input#index12:checked + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+  -webkit-animation: scale 1s 2.2s forwards;
+          animation: scale 1s 2.2s forwards;
+  transform: scale(0);
+}
+input#index12:checked + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
+  -webkit-animation: scale 1s 2.3s forwards;
+          animation: scale 1s 2.3s forwards;
+  transform: scale(0);
+}
+input#index12:checked + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__select {
+  -webkit-animation: scale 1s 2.4s forwards;
+          animation: scale 1s 2.4s forwards;
+  transform: scale(0);
+}
+input#index12:checked + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(1) {
+  -webkit-animation: scale 1s 2.06s forwards;
+          animation: scale 1s 2.06s forwards;
+  transform: scale(0);
+}
+input#index12:checked + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(2) {
+  -webkit-animation: scale 1s 2.12s forwards;
+          animation: scale 1s 2.12s forwards;
+  transform: scale(0);
+}
+input#index12:checked + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(3) {
+  -webkit-animation: scale 1s 2.18s forwards;
+          animation: scale 1s 2.18s forwards;
+  transform: scale(0);
+}
+input#index12:checked + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(4) {
+  -webkit-animation: scale 1s 2.24s forwards;
+          animation: scale 1s 2.24s forwards;
+  transform: scale(0);
+}
+input#index12:checked + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(5) {
+  -webkit-animation: scale 1s 2.3s forwards;
+          animation: scale 1s 2.3s forwards;
+  transform: scale(0);
+}
+input#index12:checked + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(6) {
+  -webkit-animation: scale 1s 2.36s forwards;
+          animation: scale 1s 2.36s forwards;
+  transform: scale(0);
+}
+input#index12:checked + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(7) {
+  -webkit-animation: scale 1s 2.42s forwards;
+          animation: scale 1s 2.42s forwards;
+  transform: scale(0);
+}
+input#index12:checked + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(8) {
+  -webkit-animation: scale 1s 2.48s forwards;
+          animation: scale 1s 2.48s forwards;
+  transform: scale(0);
+}
+input#index12:checked + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(9) {
+  -webkit-animation: scale 1s 2.54s forwards;
+          animation: scale 1s 2.54s forwards;
+  transform: scale(0);
+}
+input#index12:checked + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(10) {
+  -webkit-animation: scale 1s 2.6s forwards;
+          animation: scale 1s 2.6s forwards;
+  transform: scale(0);
+}
+input#index12:checked + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(11) {
+  -webkit-animation: scale 1s 2.66s forwards;
+          animation: scale 1s 2.66s forwards;
+  transform: scale(0);
+}
+input#index12:checked + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(12) {
+  -webkit-animation: scale 1s 2.72s forwards;
+          animation: scale 1s 2.72s forwards;
+  transform: scale(0);
+}
+input#index12:checked + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(13) {
+  -webkit-animation: scale 1s 2.78s forwards;
+          animation: scale 1s 2.78s forwards;
+  transform: scale(0);
+}
+input#index12:checked + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(14) {
+  -webkit-animation: scale 1s 2.84s forwards;
+          animation: scale 1s 2.84s forwards;
+  transform: scale(0);
+}
+input#index12:checked + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(15) {
+  -webkit-animation: scale 1s 2.9s forwards;
+          animation: scale 1s 2.9s forwards;
+  transform: scale(0);
+}
+input#index12:checked + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(16) {
+  -webkit-animation: scale 1s 2.96s forwards;
+          animation: scale 1s 2.96s forwards;
+  transform: scale(0);
+}
+
+input#index12:not(:checked) + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(1) {
+  -webkit-animation: scaleBack 0.3s 0s forwards;
+          animation: scaleBack 0.3s 0s forwards;
+  transform: scale(1);
+}
+input#index12:not(:checked) + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab label:nth-of-type(2) {
+  -webkit-animation: scaleBack 0.3s 0.1s forwards;
+          animation: scaleBack 0.3s 0.1s forwards;
+  transform: scale(1);
+}
+input#index12:not(:checked) + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab label:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.2s forwards;
+          animation: scaleBack 0.3s 0.2s forwards;
+  transform: scale(1);
+}
+input#index12:not(:checked) + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__select {
+  -webkit-animation: scaleBack 0.3s 0.4s forwards;
+          animation: scaleBack 0.3s 0.4s forwards;
+  transform: scale(1);
+}
+input#index12:not(:checked) + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__small {
+  -webkit-animation: scaleBack 0.3s 0.3s forwards;
+          animation: scaleBack 0.3s 0.3s forwards;
+  transform: scale(1);
+}
+input#index12:not(:checked) + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(1) {
+  -webkit-animation: scaleBack 0.3s 0.06s forwards;
+          animation: scaleBack 0.3s 0.06s forwards;
+  transform: scale(1);
+}
+input#index12:not(:checked) + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(2) {
+  -webkit-animation: scaleBack 0.3s 0.12s forwards;
+          animation: scaleBack 0.3s 0.12s forwards;
+  transform: scale(1);
+}
+input#index12:not(:checked) + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(3) {
+  -webkit-animation: scaleBack 0.3s 0.18s forwards;
+          animation: scaleBack 0.3s 0.18s forwards;
+  transform: scale(1);
+}
+input#index12:not(:checked) + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(4) {
+  -webkit-animation: scaleBack 0.3s 0.24s forwards;
+          animation: scaleBack 0.3s 0.24s forwards;
+  transform: scale(1);
+}
+input#index12:not(:checked) + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(5) {
+  -webkit-animation: scaleBack 0.3s 0.3s forwards;
+          animation: scaleBack 0.3s 0.3s forwards;
+  transform: scale(1);
+}
+input#index12:not(:checked) + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(6) {
+  -webkit-animation: scaleBack 0.3s 0.36s forwards;
+          animation: scaleBack 0.3s 0.36s forwards;
+  transform: scale(1);
+}
+input#index12:not(:checked) + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(7) {
+  -webkit-animation: scaleBack 0.3s 0.42s forwards;
+          animation: scaleBack 0.3s 0.42s forwards;
+  transform: scale(1);
+}
+input#index12:not(:checked) + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(8) {
+  -webkit-animation: scaleBack 0.3s 0.48s forwards;
+          animation: scaleBack 0.3s 0.48s forwards;
+  transform: scale(1);
+}
+input#index12:not(:checked) + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(9) {
+  -webkit-animation: scaleBack 0.3s 0.54s forwards;
+          animation: scaleBack 0.3s 0.54s forwards;
+  transform: scale(1);
+}
+input#index12:not(:checked) + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(10) {
+  -webkit-animation: scaleBack 0.3s 0.6s forwards;
+          animation: scaleBack 0.3s 0.6s forwards;
+  transform: scale(1);
+}
+input#index12:not(:checked) + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(11) {
+  -webkit-animation: scaleBack 0.3s 0.66s forwards;
+          animation: scaleBack 0.3s 0.66s forwards;
+  transform: scale(1);
+}
+input#index12:not(:checked) + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(12) {
+  -webkit-animation: scaleBack 0.3s 0.72s forwards;
+          animation: scaleBack 0.3s 0.72s forwards;
+  transform: scale(1);
+}
+input#index12:not(:checked) + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(13) {
+  -webkit-animation: scaleBack 0.3s 0.78s forwards;
+          animation: scaleBack 0.3s 0.78s forwards;
+  transform: scale(1);
+}
+input#index12:not(:checked) + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(14) {
+  -webkit-animation: scaleBack 0.3s 0.84s forwards;
+          animation: scaleBack 0.3s 0.84s forwards;
+  transform: scale(1);
+}
+input#index12:not(:checked) + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(15) {
+  -webkit-animation: scaleBack 0.3s 0.9s forwards;
+          animation: scaleBack 0.3s 0.9s forwards;
+  transform: scale(1);
+}
+input#index12:not(:checked) + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(16) {
+  -webkit-animation: scaleBack 0.3s 0.96s forwards;
+          animation: scaleBack 0.3s 0.96s forwards;
+  transform: scale(1);
+}
+
+input#index12:checked + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  transform: scale(1);
+}
+
+input#index12:not(:checked) + input + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+  transform: scale(0);
+}
+
 /* ----------------------------------
 
 Styling
@@ -1481,36 +3120,50 @@ body {
 .mars_scene.people .intro_people label:nth-of-type(1) {
   left: -50px;
 }
-.mars_scene.people .intro_people label:nth-of-type(1):hover + label + label + div .fam1 {
+.mars_scene.people .intro_people label:nth-of-type(1):hover + label + label +label + div .fam1 {
   opacity: 1;
   z-index: 1;
   bottom: 40px;
 }
-.mars_scene.people .intro_people label:nth-of-type(1):hover + label + label + div .fam3, .mars_scene.people .intro_people label:nth-of-type(1):hover + label + label + div .fam4 {
+.mars_scene.people .intro_people label:nth-of-type(1):hover + label + label + label + div .fam3, 
+.mars_scene.people .intro_people label:nth-of-type(1):hover + label + label + label + div .fam4 {
   opacity: 0;
   bottom: 0px;
 }
 .mars_scene.people .intro_people label:nth-of-type(2) {
   left: 200px;
 }
-.mars_scene.people .intro_people label:nth-of-type(2):hover + label + div .fam2 {
+.mars_scene.people .intro_people label:nth-of-type(2):hover + label + label + div .fam2 {
   opacity: 1;
   z-index: 1;
   bottom: 40px;
 }
-.mars_scene.people .intro_people label:nth-of-type(2):hover + label + div .fam3, .mars_scene.people .intro_people label:nth-of-type(2):hover + label + div .fam4 {
+.mars_scene.people .intro_people label:nth-of-type(2):hover + label + label + div .fam3, 
+.mars_scene.people .intro_people label:nth-of-type(2):hover + label + label + div .fam4 {
   opacity: 0;
   bottom: 0px;
 }
 .mars_scene.people .intro_people label:nth-of-type(3) {
   left: 400px;
 }
-.mars_scene.people .intro_people label:nth-of-type(3):hover + div .fam3 {
+.mars_scene.people .intro_people label:nth-of-type(3):hover + label + div .fam3 {
   opacity: 1;
   z-index: 1;
   bottom: 40px;
 }
-.mars_scene.people .intro_people label:nth-of-type(3):hover + div .fam4 {
+.mars_scene.people .intro_people label:nth-of-type(3):hover + label + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.people .intro_people label:nth-of-type(4) {
+  left: 600px;
+}
+.mars_scene.people .intro_people label:nth-of-type(4):hover + div .fam3 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.people .intro_people label:nth-of-type(4):hover + div .fam4 {
   opacity: 0;
   bottom: 0px;
 }
@@ -1622,6 +3275,18 @@ body {
   bottom: 40px;
 }
 .mars_scene.hab .intro_hab label:nth-of-type(3):hover + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.hab .intro_hab label:nth-of-type(4) {
+  left: 440px;
+}
+.mars_scene.hab .intro_hab label:nth-of-type(4):hover + div .fam3 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.hab .intro_hab label:nth-of-type(4):hover + div .fam4 {
   opacity: 0;
   bottom: 0px;
 }
