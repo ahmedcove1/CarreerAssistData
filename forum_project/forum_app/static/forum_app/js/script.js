@@ -31,6 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const question = this.getAttribute('data-question');
             answers[`q${question}`] = this.getAttribute('data-value');
             const nextCard = currentCard + 1;
+            console.log("Answered : " + question);
+            console.log("Value : "+this.getAttribute('data-value'))
             if (nextCard < cards.length) {
                 currentCard = nextCard;
             } else {
