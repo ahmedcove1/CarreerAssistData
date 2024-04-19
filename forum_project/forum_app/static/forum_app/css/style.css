@@ -3124,6 +3124,7 @@ body {
 .mars_scene.start label:hover .rocket {
   top: -34px;
 }
+/*Q1*/
 .mars_scene.development .intro_peeps {
   position: absolute;
   bottom: 8px;
@@ -3195,6 +3196,7 @@ body {
   position: relative;
   top: -34px;
 }
+/*Q2*/
 .mars_scene.people .wrap {
   position: absolute;
   left: 0;
@@ -3332,6 +3334,7 @@ body {
 .mars_scene.people .intro_people__select img.fam4 {
   bottom: 40px;
 }
+/* Q3*/
 .mars_scene.hab .wrap {
   position: absolute;
   left: 0;
@@ -3350,6 +3353,7 @@ body {
   transform: translatey(-50%) skewY(-10deg);
   width: 447px;
 }
+
 .mars_scene.hab .intro_hab label {
   font-family: "Retrocycles";
   color: #892e24;
@@ -3449,6 +3453,855 @@ body {
   top: -34px;
 }
 
+/* Q4*/
+.mars_scene.q4 .wrap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 230px;
+  top: 50%;
+  transform: translateY(calc(-50% - 129px));
+}
+.mars_scene.q4 .intro_hab {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: calc(50% - 20px);
+  transform: translatey(-50%) skewY(-10deg);
+  width: 447px;
+}
+
+.mars_scene.q4 .intro_hab label {
+  font-family: "Retrocycles";
+  color: #892e24;
+  background: white;
+  padding: 20px 30px 20px 30px;
+  box-shadow: -4px 6px #872f23;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  margin: 0 auto;
+  top: calc(50% - 70px);
+  text-align: center;
+  left: 200px;
+  right: 0;
+  position: absolute;
+  width: 100px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.mars_scene.q4 .intro_q4 label:nth-of-type(1) {
+  left: 80px;
+}
+.mars_scene.q4 .intro_q4 label:nth-of-type(1):hover + label + label + div .fam1 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.q4 .intro_q4 label:nth-of-type(1):hover + label + label + div .fam3, .mars_scene.q4 .intro_q4 label:nth-of-type(1):hover + label + label + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.q4 .intro_q4 label:nth-of-type(2) {
+  left: 200px;
+}
+.mars_scene.q4 .intro_q4 label:nth-of-type(2):hover + label + div .fam2 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.q4 .intro_q4 label:nth-of-type(2):hover + label + div .fam3, .mars_scene.q4 .intro_q4 label:nth-of-type(2):hover + label + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.q4 .intro_q4 label:nth-of-type(3) {
+  left: 320px;
+}
+.mars_scene.q4 .intro_q4 label:nth-of-type(3):hover + div .fam3 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.q4 .intro_q4 label:nth-of-type(3):hover + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.q4 .intro_q4__small {
+  font-size: 60px;
+  font-family: "pasta";
+  position: relative;
+  left: 80px;
+  top: 13px;
+  color: #8f3025;
+  transform: scale(0);
+}
+.mars_scene.q4 .intro_q4__q4s {
+  float: left;
+  position: absolute;
+  bottom: -40px;
+}
+.mars_scene.q4 .intro_q4__q4s img {
+  height: 71px;
+  margin: 24px 16px;
+}
+.mars_scene.q4 .intro_q4__large {
+  font-family: "Retrocycles";
+  color: white;
+  text-shadow: -4px 5px #953127;
+  font-size: 80px;
+}
+.mars_scene.q4 .intro_q4__large span {
+  float: left;
+  transform: scale(0);
+}
+.mars_scene.q4 .intro_q4__large span:nth-of-type(1) {
+  font-size: 110px;
+  position: relative;
+  top: -34px;
+}
+
+/* Q5*/
+.mars_scene.q5 .wrap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 230px;
+  top: 50%;
+  transform: translateY(calc(-50% - 129px));
+}
+.mars_scene.q5 .intro_hab {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: calc(50% - 20px);
+  transform: translatey(-50%) skewY(-10deg);
+  width: 447px;
+}
+
+.mars_scene.q5 .intro_hab label {
+  font-family: "Retrocycles";
+  color: #892e24;
+  background: white;
+  padding: 20px 30px 20px 30px;
+  box-shadow: -4px 6px #872f23;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  margin: 0 auto;
+  top: calc(50% - 70px);
+  text-align: center;
+  left: 200px;
+  right: 0;
+  position: absolute;
+  width: 100px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.mars_scene.q5 .intro_q5 label:nth-of-type(1) {
+  left: 80px;
+}
+.mars_scene.q5 .intro_q5 label:nth-of-type(1):hover + label + label + div .fam1 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.q5 .intro_q5 label:nth-of-type(1):hover + label + label + div .fam3, .mars_scene.q5 .intro_q5 label:nth-of-type(1):hover + label + label + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.q5 .intro_q5 label:nth-of-type(2) {
+  left: 200px;
+}
+.mars_scene.q5 .intro_q5 label:nth-of-type(2):hover + label + div .fam2 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.q5 .intro_q5 label:nth-of-type(2):hover + label + div .fam3, .mars_scene.q5 .intro_q5 label:nth-of-type(2):hover + label + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.q5 .intro_q5 label:nth-of-type(3) {
+  left: 320px;
+}
+.mars_scene.q5 .intro_q5 label:nth-of-type(3):hover + div .fam3 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.q5 .intro_q5 label:nth-of-type(3):hover + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.q5 .intro_q5__small {
+  font-size: 60px;
+  font-family: "pasta";
+  position: relative;
+  left: 80px;
+  top: 13px;
+  color: #8f3025;
+  transform: scale(0);
+}
+.mars_scene.q5 .intro_q5__q5s {
+  float: left;
+  position: absolute;
+  bottom: -40px;
+}
+.mars_scene.q5 .intro_q5__q5s img {
+  height: 71px;
+  margin: 24px 16px;
+}
+.mars_scene.q5 .intro_q5__large {
+  font-family: "Retrocycles";
+  color: white;
+  text-shadow: -4px 5px #953127;
+  font-size: 80px;
+}
+.mars_scene.q5 .intro_q5__large span {
+  float: left;
+  transform: scale(0);
+}
+.mars_scene.q5 .intro_q5__large span:nth-of-type(1) {
+  font-size: 110px;
+  position: relative;
+  top: -34px;
+}
+/* Q6*/
+.mars_scene.q6 .wrap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 230px;
+  top: 50%;
+  transform: translateY(calc(-50% - 129px));
+}
+.mars_scene.q6 .intro_hab {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: calc(50% - 20px);
+  transform: translatey(-50%) skewY(-10deg);
+  width: 447px;
+}
+
+.mars_scene.q6 .intro_hab label {
+  font-family: "Retrocycles";
+  color: #892e24;
+  background: white;
+  padding: 20px 30px 20px 30px;
+  box-shadow: -4px 6px #872f23;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  margin: 0 auto;
+  top: calc(50% - 70px);
+  text-align: center;
+  left: 200px;
+  right: 0;
+  position: absolute;
+  width: 100px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.mars_scene.q6 .intro_q6 label:nth-of-type(1) {
+  left: 80px;
+}
+.mars_scene.q6 .intro_q6 label:nth-of-type(1):hover + label + label + div .fam1 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.q6 .intro_q6 label:nth-of-type(1):hover + label + label + div .fam3, .mars_scene.q6 .intro_q6 label:nth-of-type(1):hover + label + label + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.q6 .intro_q6 label:nth-of-type(2) {
+  left: 200px;
+}
+.mars_scene.q6 .intro_q6 label:nth-of-type(2):hover + label + div .fam2 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.q6 .intro_q6 label:nth-of-type(2):hover + label + div .fam3, .mars_scene.q6 .intro_q6 label:nth-of-type(2):hover + label + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.q6 .intro_q6 label:nth-of-type(3) {
+  left: 320px;
+}
+.mars_scene.q6 .intro_q6 label:nth-of-type(3):hover + div .fam3 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.q6 .intro_q6 label:nth-of-type(3):hover + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.q6 .intro_q6__small {
+  font-size: 60px;
+  font-family: "pasta";
+  position: relative;
+  left: 80px;
+  top: 13px;
+  color: #8f3025;
+  transform: scale(0);
+}
+.mars_scene.q6 .intro_q6__q6s {
+  float: left;
+  position: absolute;
+  bottom: -40px;
+}
+.mars_scene.q6 .intro_q6__q6s img {
+  height: 71px;
+  margin: 24px 16px;
+}
+.mars_scene.q6 .intro_q6__large {
+  font-family: "Retrocycles";
+  color: white;
+  text-shadow: -4px 5px #953127;
+  font-size: 80px;
+}
+.mars_scene.q6 .intro_q6__large span {
+  float: left;
+  transform: scale(0);
+}
+.mars_scene.q6 .intro_q6__large span:nth-of-type(1) {
+  font-size: 110px;
+  position: relative;
+  top: -34px;
+}
+/* Q7*/
+.mars_scene.q7 .wrap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 230px;
+  top: 50%;
+  transform: translateY(calc(-50% - 129px));
+}
+.mars_scene.q7 .intro_hab {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: calc(50% - 20px);
+  transform: translatey(-50%) skewY(-10deg);
+  width: 447px;
+}
+
+.mars_scene.q7 .intro_hab label {
+  font-family: "Retrocycles";
+  color: #892e24;
+  background: white;
+  padding: 20px 30px 20px 30px;
+  box-shadow: -4px 6px #872f23;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  margin: 0 auto;
+  top: calc(50% - 70px);
+  text-align: center;
+  left: 200px;
+  right: 0;
+  position: absolute;
+  width: 100px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.mars_scene.q7 .intro_q7 label:nth-of-type(1) {
+  left: 80px;
+}
+.mars_scene.q7 .intro_q7 label:nth-of-type(1):hover + label + label + div .fam1 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.q7 .intro_q7 label:nth-of-type(1):hover + label + label + div .fam3, .mars_scene.q7 .intro_q7 label:nth-of-type(1):hover + label + label + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.q7 .intro_q7 label:nth-of-type(2) {
+  left: 200px;
+}
+.mars_scene.q7 .intro_q7 label:nth-of-type(2):hover + label + div .fam2 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.q7 .intro_q7 label:nth-of-type(2):hover + label + div .fam3, .mars_scene.q7 .intro_q7 label:nth-of-type(2):hover + label + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.q7 .intro_q7 label:nth-of-type(3) {
+  left: 320px;
+}
+.mars_scene.q7 .intro_q7 label:nth-of-type(3):hover + div .fam3 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.q7 .intro_q7 label:nth-of-type(3):hover + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.q7 .intro_q7__small {
+  font-size: 60px;
+  font-family: "pasta";
+  position: relative;
+  left: 80px;
+  top: 13px;
+  color: #8f3025;
+  transform: scale(0);
+}
+.mars_scene.q7 .intro_q7__q7s {
+  float: left;
+  position: absolute;
+  bottom: -40px;
+}
+.mars_scene.q7 .intro_q7__q7s img {
+  height: 71px;
+  margin: 24px 16px;
+}
+.mars_scene.q7 .intro_q7__large {
+  font-family: "Retrocycles";
+  color: white;
+  text-shadow: -4px 5px #953127;
+  font-size: 80px;
+}
+.mars_scene.q7 .intro_q7__large span {
+  float: left;
+  transform: scale(0);
+}
+.mars_scene.q7 .intro_q7__large span:nth-of-type(1) {
+  font-size: 110px;
+  position: relative;
+  top: -34px;
+}
+/* Q8*/
+.mars_scene.q8 .wrap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 230px;
+  top: 50%;
+  transform: translateY(calc(-50% - 129px));
+}
+.mars_scene.q8 .intro_hab {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: calc(50% - 20px);
+  transform: translatey(-50%) skewY(-10deg);
+  width: 447px;
+}
+
+.mars_scene.q8 .intro_hab label {
+  font-family: "Retrocycles";
+  color: #892e24;
+  background: white;
+  padding: 20px 30px 20px 30px;
+  box-shadow: -4px 6px #872f23;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  margin: 0 auto;
+  top: calc(50% - 70px);
+  text-align: center;
+  left: 200px;
+  right: 0;
+  position: absolute;
+  width: 100px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.mars_scene.q8 .intro_q8 label:nth-of-type(1) {
+  left: 80px;
+}
+.mars_scene.q8 .intro_q8 label:nth-of-type(1):hover + label + label + div .fam1 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.q8 .intro_q8 label:nth-of-type(1):hover + label + label + div .fam3, .mars_scene.q8 .intro_q8 label:nth-of-type(1):hover + label + label + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.q8 .intro_q8 label:nth-of-type(2) {
+  left: 200px;
+}
+.mars_scene.q8 .intro_q8 label:nth-of-type(2):hover + label + div .fam2 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.q8 .intro_q8 label:nth-of-type(2):hover + label + div .fam3, .mars_scene.q8 .intro_q8 label:nth-of-type(2):hover + label + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.q8 .intro_q8 label:nth-of-type(3) {
+  left: 320px;
+}
+.mars_scene.q8 .intro_q8 label:nth-of-type(3):hover + div .fam3 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.q8 .intro_q8 label:nth-of-type(3):hover + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.q8 .intro_q8__small {
+  font-size: 60px;
+  font-family: "pasta";
+  position: relative;
+  left: 80px;
+  top: 13px;
+  color: #8f3025;
+  transform: scale(0);
+}
+.mars_scene.q8 .intro_q8__q8s {
+  float: left;
+  position: absolute;
+  bottom: -40px;
+}
+.mars_scene.q8 .intro_q8__q8s img {
+  height: 71px;
+  margin: 24px 16px;
+}
+.mars_scene.q8 .intro_q8__large {
+  font-family: "Retrocycles";
+  color: white;
+  text-shadow: -4px 5px #953127;
+  font-size: 80px;
+}
+.mars_scene.q8 .intro_q8__large span {
+  float: left;
+  transform: scale(0);
+}
+.mars_scene.q8 .intro_q8__large span:nth-of-type(1) {
+  font-size: 110px;
+  position: relative;
+  top: -34px;
+}
+/* Q9*/
+.mars_scene.q9 .wrap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 230px;
+  top: 50%;
+  transform: translateY(calc(-50% - 129px));
+}
+.mars_scene.q9 .intro_hab {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: calc(50% - 20px);
+  transform: translatey(-50%) skewY(-10deg);
+  width: 447px;
+}
+
+.mars_scene.q9 .intro_hab label {
+  font-family: "Retrocycles";
+  color: #892e24;
+  background: white;
+  padding: 20px 30px 20px 30px;
+  box-shadow: -4px 6px #872f23;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  margin: 0 auto;
+  top: calc(50% - 70px);
+  text-align: center;
+  left: 200px;
+  right: 0;
+  position: absolute;
+  width: 100px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.mars_scene.q9 .intro_q9 label:nth-of-type(1) {
+  left: 80px;
+}
+.mars_scene.q9 .intro_q9 label:nth-of-type(1):hover + label + label + div .fam1 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.q9 .intro_q9 label:nth-of-type(1):hover + label + label + div .fam3, .mars_scene.q9 .intro_q9 label:nth-of-type(1):hover + label + label + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.q9 .intro_q9 label:nth-of-type(2) {
+  left: 200px;
+}
+.mars_scene.q9 .intro_q9 label:nth-of-type(2):hover + label + div .fam2 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.q9 .intro_q9 label:nth-of-type(2):hover + label + div .fam3, .mars_scene.q9 .intro_q9 label:nth-of-type(2):hover + label + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.q9 .intro_q9 label:nth-of-type(3) {
+  left: 320px;
+}
+.mars_scene.q9 .intro_q9 label:nth-of-type(3):hover + div .fam3 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.q9 .intro_q9 label:nth-of-type(3):hover + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.q9 .intro_q9__small {
+  font-size: 60px;
+  font-family: "pasta";
+  position: relative;
+  left: 80px;
+  top: 13px;
+  color: #8f3025;
+  transform: scale(0);
+}
+.mars_scene.q9 .intro_q9__q9s {
+  float: left;
+  position: absolute;
+  bottom: -40px;
+}
+.mars_scene.q9 .intro_q9__q9s img {
+  height: 71px;
+  margin: 24px 16px;
+}
+.mars_scene.q9 .intro_q9__large {
+  font-family: "Retrocycles";
+  color: white;
+  text-shadow: -4px 5px #953127;
+  font-size: 80px;
+}
+.mars_scene.q9 .intro_q9__large span {
+  float: left;
+  transform: scale(0);
+}
+.mars_scene.q9 .intro_q9__large span:nth-of-type(1) {
+  font-size: 110px;
+  position: relative;
+  top: -34px;
+}
+/* Q10*/
+.mars_scene.q10 .wrap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 230px;
+  top: 50%;
+  transform: translateY(calc(-50% - 129px));
+}
+.mars_scene.q10 .intro_hab {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: calc(50% - 20px);
+  transform: translatey(-50%) skewY(-10deg);
+  width: 447px;
+}
+
+.mars_scene.q10 .intro_hab label {
+  font-family: "Retrocycles";
+  color: #892e24;
+  background: white;
+  padding: 20px 30px 20px 30px;
+  box-shadow: -4px 6px #872f23;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  margin: 0 auto;
+  top: calc(50% - 70px);
+  text-align: center;
+  left: 200px;
+  right: 0;
+  position: absolute;
+  width: 100px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.mars_scene.q10 .intro_q10 label:nth-of-type(1) {
+  left: 80px;
+}
+.mars_scene.q10 .intro_q10 label:nth-of-type(1):hover + label + label + div .fam1 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.q10 .intro_q10 label:nth-of-type(1):hover + label + label + div .fam3, .mars_scene.q10 .intro_q10 label:nth-of-type(1):hover + label + label + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.q10 .intro_q10 label:nth-of-type(2) {
+  left: 200px;
+}
+.mars_scene.q10 .intro_q10 label:nth-of-type(2):hover + label + div .fam2 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.q10 .intro_q10 label:nth-of-type(2):hover + label + div .fam3, .mars_scene.q10 .intro_q10 label:nth-of-type(2):hover + label + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.q10 .intro_q10 label:nth-of-type(3) {
+  left: 320px;
+}
+.mars_scene.q10 .intro_q10 label:nth-of-type(3):hover + div .fam3 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.q10 .intro_q10 label:nth-of-type(3):hover + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.q10 .intro_q10__small {
+  font-size: 60px;
+  font-family: "pasta";
+  position: relative;
+  left: 80px;
+  top: 13px;
+  color: #8f3025;
+  transform: scale(0);
+}
+.mars_scene.q10 .intro_q10__q10s {
+  float: left;
+  position: absolute;
+  bottom: -40px;
+}
+.mars_scene.q10 .intro_q10__q10s img {
+  height: 71px;
+  margin: 24px 16px;
+}
+.mars_scene.q10 .intro_q10__large {
+  font-family: "Retrocycles";
+  color: white;
+  text-shadow: -4px 5px #953127;
+  font-size: 80px;
+}
+.mars_scene.q10 .intro_q10__large span {
+  float: left;
+  transform: scale(0);
+}
+.mars_scene.q10 .intro_q10__large span:nth-of-type(1) {
+  font-size: 110px;
+  position: relative;
+  top: -34px;
+}
+/* Q5*/
+.mars_scene.q5 .wrap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 230px;
+  top: 50%;
+  transform: translateY(calc(-50% - 129px));
+}
+.mars_scene.q5 .intro_hab {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: calc(50% - 20px);
+  transform: translatey(-50%) skewY(-10deg);
+  width: 447px;
+}
+
+.mars_scene.q5 .intro_hab label {
+  font-family: "Retrocycles";
+  color: #892e24;
+  background: white;
+  padding: 20px 30px 20px 30px;
+  box-shadow: -4px 6px #872f23;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  margin: 0 auto;
+  top: calc(50% - 70px);
+  text-align: center;
+  left: 200px;
+  right: 0;
+  position: absolute;
+  width: 100px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.mars_scene.q5 .intro_q5 label:nth-of-type(1) {
+  left: 80px;
+}
+.mars_scene.q5 .intro_q5 label:nth-of-type(1):hover + label + label + div .fam1 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.q5 .intro_q5 label:nth-of-type(1):hover + label + label + div .fam3, .mars_scene.q5 .intro_q5 label:nth-of-type(1):hover + label + label + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.q5 .intro_q5 label:nth-of-type(2) {
+  left: 200px;
+}
+.mars_scene.q5 .intro_q5 label:nth-of-type(2):hover + label + div .fam2 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.q5 .intro_q5 label:nth-of-type(2):hover + label + div .fam3, .mars_scene.q5 .intro_q5 label:nth-of-type(2):hover + label + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.q5 .intro_q5 label:nth-of-type(3) {
+  left: 320px;
+}
+.mars_scene.q5 .intro_q5 label:nth-of-type(3):hover + div .fam3 {
+  opacity: 1;
+  z-index: 1;
+  bottom: 40px;
+}
+.mars_scene.q5 .intro_q5 label:nth-of-type(3):hover + div .fam4 {
+  opacity: 0;
+  bottom: 0px;
+}
+.mars_scene.q5 .intro_q5__small {
+  font-size: 60px;
+  font-family: "pasta";
+  position: relative;
+  left: 80px;
+  top: 13px;
+  color: #8f3025;
+  transform: scale(0);
+}
+.mars_scene.q5 .intro_q5__q5s {
+  float: left;
+  position: absolute;
+  bottom: -40px;
+}
+.mars_scene.q5 .intro_q5__q5s img {
+  height: 71px;
+  margin: 24px 16px;
+}
+.mars_scene.q5 .intro_q5__large {
+  font-family: "Retrocycles";
+  color: white;
+  text-shadow: -4px 5px #953127;
+  font-size: 80px;
+}
+.mars_scene.q5 .intro_q5__large span {
+  float: left;
+  transform: scale(0);
+}
+.mars_scene.q5 .intro_q5__large span:nth-of-type(1) {
+  font-size: 110px;
+  position: relative;
+  top: -34px;
+}
 @-webkit-keyframes in {
   from {
     transform: scale(0);
