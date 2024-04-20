@@ -1384,7 +1384,7 @@ input#index7:checked + input + input + input + input + input + input + div + div
           animation: scale 1s 2.18s forwards;
   transform: scale(0);
 }
-input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab.intro_hab__large span:nth-of-type(4) {
+input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(4) {
   -webkit-animation: scale 1s 2.24s forwards;
           animation: scale 1s 2.24s forwards;
   transform: scale(0);
@@ -1427,26 +1427,6 @@ input#index7:checked + input + input + input + input + input + input + div + div
 input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(12) {
   -webkit-animation: scale 1s 2.72s forwards;
           animation: scale 1s 2.72s forwards;
-  transform: scale(0);
-}
-input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(13) {
-  -webkit-animation: scale 1s 2.78s forwards;
-          animation: scale 1s 2.78s forwards;
-  transform: scale(0);
-}
-input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(14) {
-  -webkit-animation: scale 1s 2.84s forwards;
-          animation: scale 1s 2.84s forwards;
-  transform: scale(0);
-}
-input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(15) {
-  -webkit-animation: scale 1s 2.9s forwards;
-          animation: scale 1s 2.9s forwards;
-  transform: scale(0);
-}
-input#index7:checked + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(16) {
-  -webkit-animation: scale 1s 2.96s forwards;
-          animation: scale 1s 2.96s forwards;
   transform: scale(0);
 }
 
@@ -1538,26 +1518,6 @@ input#index7:not(:checked) + input + input + input + input + input + input + div
 input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(12) {
   -webkit-animation: scaleBack 0.3s 0.72s forwards;
           animation: scaleBack 0.3s 0.72s forwards;
-  transform: scale(1);
-}
-input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(13) {
-  -webkit-animation: scaleBack 0.3s 0.78s forwards;
-          animation: scaleBack 0.3s 0.78s forwards;
-  transform: scale(1);
-}
-input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(14) {
-  -webkit-animation: scaleBack 0.3s 0.84s forwards;
-          animation: scaleBack 0.3s 0.84s forwards;
-  transform: scale(1);
-}
-input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(15) {
-  -webkit-animation: scaleBack 0.3s 0.9s forwards;
-          animation: scaleBack 0.3s 0.9s forwards;
-  transform: scale(1);
-}
-input#index7:not(:checked) + input + input + input + input + input + input + div + div + div + div + div + div + div + div + div + div + div.hab .intro_hab__large span:nth-of-type(16) {
-  -webkit-animation: scaleBack 0.3s 0.96s forwards;
-          animation: scaleBack 0.3s 0.96s forwards;
   transform: scale(1);
 }
 
@@ -2809,6 +2769,12 @@ Styling
 @font-face {
   font-family: "Pasta";
   src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/PastaPalazzo.woff2") format("woff2"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/PastaPalazzo.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Furgatorio";
+  src: url("https://db.onlinewebfonts.com/t/2f19285767ab38ad047d056c201395a4.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -4692,4 +4658,10 @@ blink b {
   text-align: center;
   text-shadow: 0 5px 1px rgba(0, 0, 0, 0.4);
   text-transform: uppercase;
+}
+
+#answerSum {
+  font-family: 'Furgatorio';
+  padding: 177px 150px 0 0;
+  margin: 10px;
 }

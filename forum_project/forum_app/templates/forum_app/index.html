@@ -1,440 +1,481 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Which Data Role Are You?</title>
-    <link rel="stylesheet" href="{% static 'forum_app/css/style.css' %}">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Which Data Role Are You?</title>
+  <link rel="stylesheet" href="{% static 'forum_app/css/style.css' %}">
+
 </head>
+
 <body>
 
-<div class='mars'>
-  <div class='mars_border'></div>
-  <div class='mars_bg'>
-    <blink></blink>
-    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mars_sunburst.png'>
-  </div>
-  <div class='mars_logo'>
-    <div class='mars_logo__empty'></div>
-    <div class='mars_logo__filled'></div>
-  </div>
-  <input id='index1' checked='checked' name='trigger' type='radio'>
-  <input id='index2' name='trigger' type='radio'>
-  <!-- Q1 -->
-  <input id='index3' name='trigger' type='radio'>
-  <!-- Q2 -->
-  <input id='index4' name='trigger' type='radio'>
-  <!-- Q3 -->
-  <input id='index5' name='trigger' type='radio'>
-  <!-- Q4 -->
-  <input id='index6' name='trigger' type='radio'>
-  <!-- Q5 -->
-  <input id='index7' name='trigger' type='radio'>
-  <!-- Q6 -->
-  <input id='index8' name='trigger' type='radio'>
-  <!-- Q7 -->
-  <input id='index9' name='trigger' type='radio'>
-  <!-- Q8 -->
-  <input id='index10' name='trigger' type='radio'>
-  <!-- Q9 -->
-  <input id='index11' name='trigger' type='radio'>
-  <!-- Q10 -->
-  <input id='index12' name='trigger' type='radio'>
-  <!-- END -->
-  <input id='index13' name='trigger' type='radio'>
-  <div class='mars_truck'>
-    <div class='mars_truck__wheel'>
-      <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/truckwheel.png'>
+  <div class='mars'>
+    <div class='mars_border'></div>
+    <div class='mars_bg'>
+      <blink></blink>
+      <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mars_sunburst.png'>
     </div>
-    <div class='mars_truck__wheel--two'>
-      <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/truckwheel.png'>
+    <div class='mars_logo'>
+      <div class='mars_logo__empty'></div>
+      <div class='mars_logo__filled'></div>
     </div>
-    <div class='mars_truck__body'>
-      <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/truckbody.png'>
-    </div>
-  </div>
-  <div class='mars_buildings'></div>
-  <div class='mars_parallax'></div>
-  <div class='mars_parallax--two'></div>
-  <!-- Q0 -->
-  <!-- div + div + div + div + div.start -->
-  <div class='mars_scene start'>
-    <div class='mars_scene__inner'>
-      <div class='intro'>
-        <div class='intro_small'>
-          Discover Your Place
-        </div>
-        <div class='intro_to'>
-          In the
-        </div>
-        <div class='intro_large'>
-          <span>D</span>
-          <span>A</span>
-          <span>T</span>
-          <span>A</span>
-        </div>
-        <div class='intro_to second'>
-          Frontier
-        </div>
-        <div class='intro_subheading'>
-          "Mars Awaits Your Expertise!"
-        </div>
-        <label for='index2'>
-          Get started
-          <img class='rocket' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/rocket_copy.png'>
-          <img class='cloud' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/rcloud.png'>
-        </label>
+    <input id='index1' checked='checked' name='trigger' type='radio'>
+    <input id='index2' name='trigger' type='radio'>
+    <!-- Q1 -->
+    <input id='index3' name='trigger' type='radio'>
+    <!-- Q2 -->
+    <input id='index4' name='trigger' type='radio'>
+    <!-- Q3 -->
+    <input id='index5' name='trigger' type='radio'>
+    <!-- Q4 -->
+    <input id='index6' name='trigger' type='radio'>
+    <!-- Q5 -->
+    <input id='index7' name='trigger' type='radio'>
+    <!-- Q6 -->
+    <input id='index8' name='trigger' type='radio'>
+    <!-- Q7 -->
+    <input id='index9' name='trigger' type='radio'>
+    <!-- Q8 -->
+    <input id='index10' name='trigger' type='radio'>
+    <!-- Q9 -->
+    <input id='index11' name='trigger' type='radio'>
+    <!-- Q10 -->
+    <input id='index12' name='trigger' type='radio'>
+    <!-- END -->
+    <input id='index13' name='trigger' type='radio'>
+    <div class='mars_truck'>
+      <div class='mars_truck__wheel'>
+        <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/truckwheel.png'>
+      </div>
+      <div class='mars_truck__wheel--two'>
+        <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/truckwheel.png'>
+      </div>
+      <div class='mars_truck__body'>
+        <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/truckbody.png'>
       </div>
     </div>
-  </div>
-  <!--Q1--> 
-  <!-- div + div + div + div + div.development -->
-  <div class='mars_scene development'>
-    <div class='mars_scene__inner'>
-      <div class='intro_development'>
-        <div class='intro_development__small'>
-          Comment demeles-tu les
-        </div>
-        <div class='intro_development__large'>
-          <span>P</span>
-          <span>r</span>
-          <span>o</span>
-          <span>b</span>
-          <span>l</span>
-          <span>e</span>
-          <span>m</span>
-          <span>e</span>
-          <span>s</span>
-          <span>?</span>
-        </div>
-        <div class='intro_development__mars question'>
-          <label class="answer" for='index3' data-question="1" data-value="A" >
-            <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mars_big.png'>
-            <div>Par des methodologies structurees et logiques.</div>
-          </label>
-          <label class="answer" for='index3' data-question="1" data-value="B">
-            <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mars_big.png'>
-            <div>En automatisant certains aspects du processus decisionnel.</div>
-          </label>
-          <label class="answer" for='index3' data-question="1" data-value="C">
-            <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mars_big.png'>
-            <div>En optimisant les strategies et processus d'affaires.</div>
-          </label>
-          <label class="answer" for='index3' data-question="1" data-value="D">
-            <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mars_big.png'>
-            <div>En trouvant des solutions innovantes aux problemes complexes.</div>
-          </label>
-        </div>
-      </div>
-      <div class='intro_peeps'>
-        <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/peeps.png'>
-      </div>
-    </div>
-  </div>
-  <!--Q2--> 
-  <!-- div + div + div + div + div + div.people -->
-  <div class='mars_scene people'>
-    <div class='mars_scene__inner'>
-      <div class='intro_people question'>
-        <div class='wrap'>
-          <div class='intro_people__small'>
-            Et niveau programmation et code tu
+    <div class='mars_buildings'></div>
+    <div class='mars_parallax'></div>
+    <div class='mars_parallax--two'></div>
+    <!-- Q0 -->
+    <!-- div + div + div + div + div.start -->
+    <div class='mars_scene start'>
+      <div class='mars_scene__inner'>
+        <div class='intro'>
+          <div class='intro_small'>
+            Discover Your Place
           </div>
-          <div class='intro_people__large'>
+          <div class='intro_to'>
+            In the
+          </div>
+          <div class='intro_large'>
+            <span>D</span>
+            <span>A</span>
+            <span>T</span>
+            <span>A</span>
+          </div>
+          <div class='intro_to second'>
+            Frontier
+          </div>
+          <div class='intro_subheading'>
+            "Mars Awaits Your Expertise!"
+          </div>
+          <label for='index2'>
+            Get started
+            <img class='rocket' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/rocket_copy.png'>
+            <img class='cloud' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/rcloud.png'>
+          </label>
+        </div>
+      </div>
+    </div>
+    <!--Q1-->
+    <!-- div + div + div + div + div.development -->
+    <div class='mars_scene development'>
+      <div class='mars_scene__inner'>
+        <div class='intro_development'>
+          <div class='intro_development__small'>
+            Comment demeles-tu les
+          </div>
+          <div class='intro_development__large'>
             <span>P</span>
             <span>r</span>
+            <span>o</span>
+            <span>b</span>
+            <span>l</span>
             <span>e</span>
-            <span>f</span>
-            <span>e</span>
-            <span>r</span>
+            <span>m</span>
             <span>e</span>
             <span>s</span>
+            <span>?</span>
+          </div>
+          <div class='intro_development__mars question'>
+            <label class="answer" for='index3' data-question="1" data-value="A">
+              <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mars_big.png'>
+              <div>Par des methodologies structurees et logiques.</div>
+            </label>
+            <label class="answer" for='index3' data-question="1" data-value="B">
+              <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mars_big.png'>
+              <div>En automatisant certains aspects du processus decisionnel.</div>
+            </label>
+            <label class="answer" for='index3' data-question="1" data-value="C">
+              <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mars_big.png'>
+              <div>En optimisant les strategies et processus d'affaires.</div>
+            </label>
+            <label class="answer" for='index3' data-question="1" data-value="D">
+              <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mars_big.png'>
+              <div>En trouvant des solutions innovantes aux problemes complexes.</div>
+            </label>
+          </div>
+        </div>
+        <div class='intro_peeps'>
+          <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/peeps.png'>
+        </div>
+      </div>
+    </div>
+    <!--Q2-->
+    <!-- div + div + div + div + div + div.people -->
+    <div class='mars_scene people'>
+      <div class='mars_scene__inner'>
+        <div class='intro_people question'>
+          <div class='wrap'>
+            <div class='intro_people__small'>
+              Et niveau programmation et code tu
+            </div>
+            <div class='intro_people__large'>
+              <span>P</span>
+              <span>r</span>
+              <span>e</span>
+              <span>f</span>
+              <span>e</span>
+              <span>r</span>
+              <span>e</span>
+              <span>s</span>
+              <span>.</span>
+              <span>.</span>
+              <span>.</span>
+            </div>
+          </div>
+          <label class="answer" for='index4' data-question="2" data-value="A">te concentrer sur l'utilisation des outils
+            d'intelligence d'affaires existants.</label>
+          <label class="answer" for='index4' data-question="2" data-value="B">t'appuyer sur des bibliotheques de code
+            preexistantes.</label>
+          <label class="answer" for='index4' data-question="2" data-value="C">construire des algorithmes et des modeles
+            de zero.</label>
+          <label class="answer" for='index4' data-question="2" data-value="D">utiliser des langages de script pour
+            automatiser les taches.</label>
+          <div class='intro_people__select'>
+            <img class='fam1' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/fam1.png'>
+            <img class='fam2' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/fam2.png'>
+            <img class='fam3' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/fam3.png'>
+            <img class='fam4' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/fam4.png'>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Q3-->
+    <!-- div + div + div + div + div + div + div.hab -->
+    <div class='mars_scene hab'>
+      <div class='mars_scene__inner'>
+        <div class='intro_hab'>
+          <div class='intro_hab__small'>
+            Tu es le plus attire par quel
+          </div>
+          <div class='intro_hab__large'>
+            <span>S</span>
+            <span>e</span>
+            <span>c</span>
+            <span>t</span>
+            <span>e</span>
+            <span>u</span>
+            <span>r</span>
+            <span>?</span>
+          </div>
+          <div class='intro_hab__habs question'>
+            <label class="answer" for='index5' data-question="3" data-value="A">Technologie et innovation.</label>
+            <label class="answer" for='index5' data-question="3" data-value="B">Sports et divertissement.</label>
+            <label class="answer" for='index5' data-question="3" data-value="C">Sante et medecine.</label>
+            <label class="answer" for='index5' data-question="3" data-value="D">Affaires et consulting.</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Q4-->
+    <!-- div + div + div + div + div + div + div + div.hab -->
+    <div class='mars_scene hab'>
+      <div class='mars_scene__inner'>
+        <div class='intro_hab'>
+          <div class='intro_hab__small'>
+            Comment tu geres ta
+          </div>
+          <div class='intro_hab__large'>
+            <span>V</span>
+            <span>e</span>
+            <span>i</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>?</span>
+          </div>
+          <div class='intro_hab__habs question'>
+            <label class="answer" for='index6' data-question="4" data-value="A">Par les conferences du secteur et la
+              litterature specifique.</label>
+            <label class="answer" for='index6' data-question="4" data-value="B">En exploitant les grandes donnees pour
+              l'avenir.</label>
+            <label class="answer" for='index6' data-question="4" data-value="C">En restant informe des dernieres
+              avancees technologiques.</label>
+            <label class="answer" for='index6' data-question="4" data-value="D">En mettant l'accent sur l'amelioration
+              continue pour mieux servir les clients.</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Q5-->
+    <!-- div + div + div + div + div + div + div + div + div.hab -->
+    <div class='mars_scene hab'>
+      <div class='mars_scene__inner'>
+        <div class='intro_hab'>
+          <div class='intro_hab__small'>
+            O<span style="
+          font-family: 'Furgatorio';
+      ">ù</span> preferes-tu
+          </div>
+          <div class='intro_hab__large'>
+            <span>T</span>
+            <span>r</span>
+            <span>a</span>
+            <span>v</span>
+            <span>a</span>
+            <span>i</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>?</span>
+          </div>
+          <div class='intro_hab__habs question'>
+            <label class="answer" for='index7' data-question="5" data-value="A">Dans un hôpital ou un cadre de soins
+              sociaux.</label>
+            <label class="answer" for='index7' data-question="5" data-value="B">Dans un laboratoire de recherche ou un
+              cadre academique.</label>
+            <label class="answer" for='index7' data-question="5" data-value="C">Dans une arene sportive ou un studio de
+              diffusion.</label>
+            <label class="answer" for='index7' data-question="5" data-value="D">Dans un bureau d'entreprise avec un
+              environnement structure.</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Q6-->
+    <!-- div + div + div + div + div + div + div + div + div + div.hab -->
+    <div class='mars_scene hab'>
+      <div class='mars_scene__inner'>
+        <div class='intro_hab'>
+          <div class='intro_hab__small'>
+            Tu preferes
+          </div>
+          <div class='intro_hab__large'>
+            <span>C</span>
+            <span>o</span>
+            <span>l</span>
+            <span>l</span>
+            <span>a</span>
+            <span>b</span>
+            <span>b</span>
+            <span>o</span>
+            <span>r</span>
+            <span>e</span>
+            <span>r</span>
+            <span>?</span>
+          </div>
+          <div class='intro_hab__habs question'>
+            <label class="answer" for='index8' data-question="6" data-value="A">en resolvant des problemes complexes
+              avec des equipes d'experts techniques.</label>
+            <label class="answer" for='index8' data-question="6" data-value="B">en collaborant avec les parties
+              prenantes pour concevoir des solutions adaptees.</label>
+            <label class="answer" for='index8' data-question="6" data-value="C">en travaillant seul sur des projets
+              techniques passionnants.</label>
+            <label class="answer" for='index8' data-question="6" data-value="D">en travaillant avec des professionnels
+              du sport et de la creation.</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Q7-->
+    <!-- div + div + div + div + div + div + div + div + div + div + div.hab -->
+    <div class='mars_scene hab'>
+      <div class='mars_scene__inner'>
+        <div class='intro_hab'>
+          <div class='intro_hab__small'>
+            Quelle importance apportes tu aux
+          </div>
+          <div class='intro_hab__large'>
+            <span>D</span>
+            <span>e</span>
+            <span>t</span>
+            <span>a</span>
+            <span>i</span>
+            <span>l</span>
+            <span>s</span>
+            <span>?</span>
+          </div>
+          <div class='intro_hab__habs question'>
+            <label class="answer" for='index9' data-question="7" data-value="A">Je suis un perfectionniste, la precision
+              est essentielle.</label>
+            <label class="answer" for='index9' data-question="7" data-value="B">Une planification soignee est cruciale
+              pour le succes des projets complexes.</label>
+            <label class="answer" for='index9' data-question="7" data-value="C">Meme une petite erreur peut avoir des
+              consequences importantes</label>
+            <label class="answer" for='index9' data-question="7" data-value="D">Les details sont cles pour ne pas
+              manquer des opportunites cruciales.</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Q8-->
+    <!-- div + div + div + div + div + div + div + div + div + div + div + div.hab -->
+    <div class='mars_scene hab'>
+      <div class='mars_scene__inner'>
+        <div class='intro_hab'>
+          <div class='intro_hab__small'>
+            Tes decouvertes et insights, tu preferes les
+          </div>
+          <div class='intro_hab__large'>
+            <span>C</span>
+            <span>o</span>
+            <span>m</span>
+            <span>m</span>
+            <span>u</span>
+            <span>n</span>
+            <span>i</span>
+            <span>q</span>
+            <span>u</span>
+            <span>e</span>
+            <span>r</span>
+          </div>
+          <div class='intro_hab__habs question'>
+            <label class="answer" for='index10' data-question="8" data-value="A">En partageant des insights
+              significatifs pour ameliorer le bien-être global.</label>
+            <label class="answer" for='index10' data-question="8" data-value="B">En transmettant des concepts complexes
+              à des publics divers.</label>
+            <label class="answer" for='index10' data-question="8" data-value="C">À travers des visualisations de donnees
+              et des tableaux de bord attractifs.</label>
+            <label class="answer" for='index10' data-question="8" data-value="D">En expliquant des informations
+              techniques à des professionnels inities.</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Q9-->
+    <!-- div + div + div + div + div + div + div + div + div + div + div + div + div.hab -->
+    <div class='mars_scene hab'>
+      <div class='mars_scene__inner'>
+        <div class='intro_hab'>
+          <div class='intro_hab__small'>
+            Dans ton travail, comment geres-tu
+          </div>
+          <div class='intro_hab__large'>
+            <span>L</span>
+            <span>'</span>
+            <span>i</span>
+            <span>n</span>
+            <span>c</span>
+            <span>e</span>
+            <span>r</span>
+            <span>t</span>
+            <span>i</span>
+            <span>t</span>
+            <span>u</span>
+            <span>d</span>
+            <span>e</span>
+            <span>?</span>
+          </div>
+          <div class='intro_hab__habs question'>
+            <label class="answer" for='index11' data-question="9" data-value="A">J'accepte que l'ambiguite et
+              l'incertitude soient inherentes au travail avec des systemes à grande echelle.</label>
+            <label class="answer" for='index11' data-question="9" data-value="B">Je trouve motivant de relever de
+              nouveaux defis techniques dans l'ambiguite.</label>
+            <label class="answer" for='index11' data-question="9" data-value="C">Je prefere avoir des objectifs clairs
+              et des taches bien definies pour minimiser l'ambiguite.</label>
+            <label class="answer" for='index11' data-question="9" data-value="D">Je m'epanouis dans la resolution
+              creative de problemes dans des situations incertaines.</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Q10-->
+    <!-- div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab -->
+    <div class='mars_scene hab'>
+      <div class='mars_scene__inner'>
+        <div class='intro_hab'>
+          <div class='intro_hab__small'>
+            Face <span style="
+          font-family: 'Furgatorio';
+      ">à</span> la montee recente des outils d'intelligence artificielle (IA), tu es
+          </div>
+          <div class='intro_hab__large'>
+            <span>P</span>
+            <span>l</span>
+            <span>u</span>
+            <span>t</span>
+            <span>o</span>
+            <span>t</span>
             <span>.</span>
             <span>.</span>
             <span>.</span>
           </div>
-        </div>
-        <label class="answer" for='index4' data-question="2" data-value="A">te concentrer sur l'utilisation des outils d'intelligence d'affaires existants.</label>
-        <label class="answer" for='index4' data-question="2" data-value="B">t'appuyer sur des bibliotheques de code preexistantes.</label>
-        <label class="answer" for='index4' data-question="2" data-value="C">construire des algorithmes et des modeles de zero.</label>
-        <label class="answer" for='index4' data-question="2" data-value="D">utiliser des langages de script pour automatiser les taches.</label>
-        <div class='intro_people__select'>
-          <img class='fam1' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/fam1.png'>
-          <img class='fam2' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/fam2.png'>
-          <img class='fam3' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/fam3.png'>
-          <img class='fam4' src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/fam4.png'>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--Q3--> 
-  <!-- div + div + div + div + div + div + div.hab -->
-  <div class='mars_scene hab'>
-    <div class='mars_scene__inner'>
-      <div class='intro_hab'>
-        <div class='intro_hab__small'>
-          Tu es le plus attire par quel
-        </div>
-        <div class='intro_hab__large'>
-          <span>S</span>
-          <span>e</span>
-          <span>c</span>
-          <span>t</span>
-          <span>e</span>
-          <span>u</span>
-          <span>r</span>
-          <span>?</span>
-        </div>
-        <div class='intro_hab__habs question'>
-          <label class="answer" for='index5' data-question="3" data-value="A">Technologie et innovation.</label>
-          <label class="answer" for='index5' data-question="3" data-value="B">Sports et divertissement.</label>
-          <label class="answer" for='index5' data-question="3" data-value="C">Sante et medecine.</label>
-          <label class="answer" for='index5' data-question="3" data-value="D">Affaires et consulting.</label>
+          <div class='intro_hab__habs question'>
+            <label class="answer" for='index12' data-question="10" data-value="A">Optimiste quant à l'aide de l'IA pour
+              exploiter les donnees de nouvelles manières.</label>
+            <label class="answer" for='index12' data-question="10" data-value="B">Enthousiaste à l'idee que l'IA
+              automatisera les taches fastidieuses.</label>
+            <label class="answer" for='index12' data-question="10" data-value="C">Convaincu que l'IA ameliorera les
+              services publics et sociaux.</label>
+            <label class="answer" for='index12' data-question="10" data-value="D">Interesse par le fonctionnement
+              interne de l'IA et son developpement ethique.</label>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <!--Q4--> 
-  <!-- div + div + div + div + div + div + div + div.hab -->
-  <div class='mars_scene hab'>
-    <div class='mars_scene__inner'>
-      <div class='intro_hab'>
-        <div class='intro_hab__small'>
-          Comment tu geres ta
+    <!--END-->
+    <!-- div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab -->
+    <div class='mars_scene hab'>
+      <div class='mars_scene__inner'>
+        <div class='intro_hab' id="verdict">
+          <div class='intro_hab__small'>
+            C'est l'heure du
+          </div>
+          <div class='intro_hab__large'>
+            <span>V</span>
+            <span>e</span>
+            <span>r</span>
+            <span>d</span>
+            <span>i</span>
+            <span>c</span>
+            <span>t</span>
+          </div>
         </div>
-        <div class='intro_hab__large'>
-          <span>V</span>
-          <span>e</span>
-          <span>i</span>
-          <span>l</span>
-          <span>l</span>
-          <span>e</span>
-          <span>?</span>
-        </div>
-        <div class='intro_hab__habs question'>
-          <label class="answer" for='index6' data-question="4" data-value="A">Par les conferences du secteur et la litterature specifique.</label>
-          <label class="answer" for='index6' data-question="4" data-value="B">En exploitant les grandes donnees pour l'avenir.</label>
-          <label class="answer" for='index6' data-question="4" data-value="C">En restant informe des dernieres avancees technologiques.</label>
-          <label class="answer" for='index6' data-question="4" data-value="D">En mettant l'accent sur l'amelioration continue pour mieux servir les clients.</label>
+        <div class='intro_hab__small' id="answerSum">
         </div>
       </div>
     </div>
-  </div>
-  <!--Q5--> 
-  <!-- div + div + div + div + div + div + div + div + div.hab -->
-  <div class='mars_scene hab'>
-    <div class='mars_scene__inner'>
-      <div class='intro_hab'>
-        <div class='intro_hab__small'>
-          Où preferes-tu
-        </div>
-        <div class='intro_hab__large'>
-          <span>T</span>
-          <span>r</span>
-          <span>a</span>
-          <span>v</span>
-          <span>a</span>
-          <span>i</span>
-          <span>l</span>
-          <span>l</span>
-          <span>e</span>
-          <span>r</span>
-          <span>?</span>
-        </div>
-        <div class='intro_hab__habs question'>
-          <label class="answer" for='index7' data-question="5" data-value="A">Dans un hôpital ou un cadre de soins sociaux.</label>
-          <label class="answer" for='index7' data-question="5" data-value="B">Dans un laboratoire de recherche ou un cadre academique.</label>
-          <label class="answer" for='index7' data-question="5" data-value="C">Dans une arene sportive ou un studio de diffusion.</label>
-          <label class="answer" for='index7' data-question="5" data-value="D">Dans un bureau d'entreprise avec un environnement structure.</label>
-        </div>
-      </div>
+    <div class='mars_sidebar'>
+      <h2>Cost</h2>
+      <p>Development: -</p>
+      <p>People: -</p>
+      <p>Hab type: -</p>
+      <p>Booking slot: -</p>
     </div>
   </div>
-  <!--Q6--> 
-  <!-- div + div + div + div + div + div + div + div + div + div.hab -->
-  <div class='mars_scene hab'>
-    <div class='mars_scene__inner'>
-      <div class='intro_hab'>
-        <div class='intro_hab__small'>
-          Tu preferes 
-        </div>
-        <div class='intro_hab__large'>
-          <span>C</span>
-          <span>o</span>
-          <span>l</span>
-          <span>l</span>
-          <span>a</span>
-          <span>b</span>
-          <span>b</span>
-          <span>o</span>
-          <span>r</span>
-          <span>e</span>
-          <span>r</span>
-          <span>?</span>
-        </div>
-        <div class='intro_hab__habs question'>
-          <label class="answer" for='index8' data-question="6" data-value="A">en resolvant des problemes complexes avec des equipes d'experts techniques.</label>
-          <label class="answer" for='index8' data-question="6" data-value="B">en collaborant avec les parties prenantes pour concevoir des solutions adaptees.</label>
-          <label class="answer" for='index8' data-question="6" data-value="C">en travaillant seul sur des projets techniques passionnants.</label>
-          <label class="answer" for='index8' data-question="6" data-value="D">en travaillant avec des professionnels du sport et de la creation.</label>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--Q7--> 
-  <!-- div + div + div + div + div + div + div + div + div + div + div.hab -->
-  <div class='mars_scene hab'>
-    <div class='mars_scene__inner'>
-      <div class='intro_hab'>
-        <div class='intro_hab__small'>
-          Quelle importance apportes tu aux
-        </div>
-        <div class='intro_hab__large'>
-          <span>D</span>
-          <span>e</span>
-          <span>t</span>
-          <span>a</span>
-          <span>i</span>
-          <span>l</span>
-          <span>s</span>
-          <span>?</span>
-        </div>
-        <div class='intro_hab__habs question'>
-          <label class="answer" for='index9' data-question="7" data-value="A">Je suis un perfectionniste, la precision est essentielle.</label>
-          <label class="answer" for='index9' data-question="7" data-value="B">Une planification soignee est cruciale pour le succes des projets complexes.</label>
-          <label class="answer" for='index9' data-question="7" data-value="C">Meme une petite erreur peut avoir des consequences importantes</label>
-          <label class="answer" for='index9' data-question="7" data-value="D">Les details sont cles pour ne pas manquer des opportunites cruciales.</label>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--Q8--> 
-  <!-- div + div + div + div + div + div + div + div + div + div + div + div.hab -->
-  <div class='mars_scene hab'>
-    <div class='mars_scene__inner'>
-      <div class='intro_hab'>
-        <div class='intro_hab__small'>
-          Tes decouvertes et insights, tu preferes les
-        </div>
-        <div class='intro_hab__large'>
-          <span>C</span>
-          <span>o</span>
-          <span>m</span>
-          <span>m</span>
-          <span>u</span>
-          <span>n</span>
-          <span>i</span>
-          <span>q</span>
-          <span>u</span>
-          <span>e</span>
-          <span>r</span>
-        </div>
-        <div class='intro_hab__habs question'>
-          <label class="answer" for='index10' data-question="8" data-value="A">En partageant des insights significatifs pour ameliorer le bien-être global.</label>
-          <label class="answer" for='index10' data-question="8" data-value="B">En transmettant des concepts complexes à des publics divers.</label>
-          <label class="answer" for='index10' data-question="8" data-value="C">À travers des visualisations de donnees et des tableaux de bord attractifs.</label>
-          <label class="answer" for='index10' data-question="8" data-value="D">En expliquant des informations techniques à des professionnels inities.</label>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--Q9--> 
-  <!-- div + div + div + div + div + div + div + div + div + div + div + div + div.hab -->
-  <div class='mars_scene hab'>
-    <div class='mars_scene__inner'>
-      <div class='intro_hab'>
-        <div class='intro_hab__small'>
-          Dans ton travail, comment geres-tu
-        </div>
-        <div class='intro_hab__large'>
-          <span>L</span>
-          <span>'</span>
-          <span>i</span>
-          <span>n</span>
-          <span>c</span>
-          <span>e</span>
-          <span>r</span>
-          <span>t</span>
-          <span>i</span>
-          <span>t</span>
-          <span>u</span>
-          <span>d</span>
-          <span>e</span>
-          <span>?</span>
-        </div>
-        <div class='intro_hab__habs question'>
-          <label class="answer" for='index11' data-question="9" data-value="A">J'accepte que l'ambiguite et l'incertitude soient inherentes au travail avec des systemes à grande echelle.</label>
-          <label class="answer" for='index11' data-question="9" data-value="B">Je trouve motivant de relever de nouveaux defis techniques dans l'ambiguite.</label>
-          <label class="answer" for='index11' data-question="9" data-value="C">Je prefere avoir des objectifs clairs et des taches bien definies pour minimiser l'ambiguite.</label>
-          <label class="answer" for='index11' data-question="9" data-value="D">Je m'epanouis dans la resolution creative de problemes dans des situations incertaines.</label>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--Q10--> 
-  <!-- div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab -->
-  <div class='mars_scene hab'>
-    <div class='mars_scene__inner'>
-      <div class='intro_hab'>
-        <div class='intro_hab__small'>
-          Face à la montee recente des outils d'intelligence artificielle (IA), tu es
-        </div>
-        <div class='intro_hab__large'>
-          <span>P</span>
-          <span>l</span>
-          <span>u</span>
-          <span>t</span>
-          <span>o</span>
-          <span>t</span>
-          <span>.</span>
-          <span>.</span>
-          <span>.</span>
-        </div>
-        <div class='intro_hab__habs question'>
-          <label class="answer" for='index12' data-question="10" data-value="A">Optimiste quant à l'aide de l'IA pour exploiter les donnees de nouvelles manières.</label>
-          <label class="answer" for='index12' data-question="10" data-value="B">Enthousiaste à l'idee que l'IA automatisera les taches fastidieuses.</label>
-          <label class="answer" for='index12' data-question="10" data-value="C">Convaincu que l'IA ameliorera les services publics et sociaux.</label>
-          <label class="answer" for='index12' data-question="10" data-value="D">Interesse par le fonctionnement interne de l'IA et son developpement ethique.</label>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--END--> 
-  <!-- div + div + div + div + div + div + div + div + div + div + div + div + div + div + div.hab -->
-  <div class='mars_scene hab'>
-    <div class='mars_scene__inner'>
-      <div class='intro_hab'>
-        <div class='intro_hab__small'>
-          C'est l'heure du 
-        </div>
-        <div class='intro_hab__large'>
-          <span>V</span>
-          <span>e</span>
-          <span>r</span>
-          <span>d</span>
-          <span>i</span>
-          <span>c</span>
-          <span>t</span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class='mars_sidebar'>
-    <h2>Cost</h2>
-    <p>Development: -</p>
-    <p>People: -</p>
-    <p>Hab type: -</p>
-    <p>Booking slot: -</p>
-  </div>
-</div>
 
 
-<script src="{% static 'forum_app/js/script.js' %}"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="{% static 'forum_app/js/script.js' %}"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
+
 </html>
