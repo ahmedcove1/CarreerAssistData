@@ -4661,7 +4661,40 @@ blink b {
 }
 
 #answerSum {
-  font-family: 'Furgatorio';
   padding: 177px 150px 0 0;
   margin: 10px;
+  opacity: 0;
+}
+
+#answerTxt {
+  font-family: 'Furgatorio';
+  font-size: 45px;
+}
+
+#animations-example-6 {
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  font-family: 'Furgatorio';
+  font-size: 35px;
+}
+#animations-example-6 .column {
+  --aspect-ratio: 4 / 3;
+}
+#animations-example-6 .column td {
+  background-image: linear-gradient(
+    45deg,
+    #956fd3,
+    #e76ec2,
+    #ff7fa2,
+    #ffa782,
+    #ffd86f,
+    #faf982
+  );
+  background-size: 600%;
+  animation: gradient-animation 3s linear infinite alternate;
+}
+@keyframes gradient-animation {
+  0%   { background-position:   0%; }
+  100% { background-position: 100%; }
 }

@@ -30,10 +30,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     "marginTop": "-50vh",
                     "zoom" : "70%"
                 }, {
-                    duration: 2000,
+                    duration: 1000,
                     easing: "linear",
                     complete: () => {
-                        document.getElementById('answerSum').innerHTML = data.summary;
+                        document.getElementById('answerTxt').innerHTML = data.summary;
+                        document.getElementById('val1').innerHTML = (data.role_scores.DataAnalyst*100)+' %';
+                        document.getElementById('val2').innerHTML = (data.role_scores.DataEngineer*100)+' %';
+                        document.getElementById('val3').innerHTML = (data.role_scores.DataProductManager*100)+' %';
+                        document.getElementById('val4').innerHTML = (data.role_scores.DataScientist*100)+' %';
+                        $('#answerSum').fadeTo( "slow", 1 );
                     },
                 })
                 // Redirect to a result page; ensure '/result/' is the correct path
