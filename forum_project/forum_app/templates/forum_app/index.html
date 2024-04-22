@@ -460,34 +460,6 @@
         <div class='intro_hab__small' id="answerSum">
           <div>
             <div id="answerTxt"></div>
-            <div id="animations-example-6">
-              <table class="charts-css column show-labels hide-data data-spacing-5 show-primary-axis">
-                <thead>
-                  <tr>
-                    <th scope="col"> Vos </th>
-                    <th scope="col"> Pourcentages </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">Data Analyst</th>
-                    <td style="--size: 0.2;"><span class="data" id="val1"></span></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Data Engineer</th>
-                    <td style="--size: 0.4;"><span class="data" id="val2"></span></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Data Product Manager</th>
-                    <td style="--size: 1.0;"><span class="data" id="val3"></span></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Data Scientist</th>
-                    <td style="--size: 1.0;"><span class="data" id="val4"></span></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
           </div>
         </div>
       </div>
@@ -501,9 +473,19 @@
     </div>
   </div>
 
+  <div class="barContainer">
+    <div class="row">
+      <a class="roleName"></a> <input type="checkbox" id="water" />  
+    <label for="water">
+      <div id="fill"></div>
+    </label>
+  </div>
+    <span class="progress"></span>
+  </div>
 
   <script src="{% static 'forum_app/js/script.js' %}"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://unpkg.com/jquerykeyframes@1.0.8/dist/jquery.keyframes.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
